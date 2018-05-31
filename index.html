@@ -34,7 +34,7 @@
 	         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
          }).addTo(mymap);         
          
-         var runLayer = omnivore.kml('Comisarias.kml')
+         var runLayer = omnivore.kml('https://raw.githubusercontent.com/joseprous/comisarias/master/comisarias.kml')
                                 .on('ready', function() {
                                     map.fitBounds(runLayer.getBounds());
                                     runLayer.eachLayer(function(layer) {
