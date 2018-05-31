@@ -72,18 +72,55 @@
          agregarComisaria("Comisar&iacute;a 23 metropolitana","",-57.56433585531751,-25.22959187904377);
          agregarComisaria("Comisar&iacute;a 24 metropolitana","",-57.64561418151288,-25.31978552243731);
          
-         mymap.locate({setView: true, maxZoom: 16});
+         /* mymap.locate({setView: true, maxZoom: 16});
+
+          * function onLocationFound(e) {
+          *     var radius = e.accuracy / 2;
+
+          *     L.marker(e.latlng).addTo(mymap)
+          *      .bindPopup("Mi ubicaci&oacute;n").openPopup();
+
+          *     L.circle(e.latlng, radius).addTo(mymap);
+          * }
+
+          * mymap.on('locationfound', onLocationFound); */
+
+
+
+
+         var current_position, current_accuracy;
 
          function onLocationFound(e) {
+             // if position defined, then remove the existing position marker and accuracy circle from the map
+             if (current_position) {
+                 mymap.removeLayer(current_position);
+                 mymap.removeLayer(current_accuracy);
+             }
+
              var radius = e.accuracy / 2;
 
-             L.marker(e.latlng).addTo(mymap)
-              .bindPopup("Mi ubicaci&oacute;n").openPopup();
+             current_position = L.marker(e.latlng).addTo(mymap)
+                                 .bindPopup("Mi ubicaci&oacute;n").openPopup();
 
-             L.circle(e.latlng, radius).addTo(mymap);
+             current_accuracy = L.circle(e.latlng, radius).addTo(mymap);
          }
 
-         mymap.on('locationfound', onLocationFound);         
+         function onLocationError(e) {
+             //alert(e.message);
+         }
+
+         mymap.on('locationfound', onLocationFound);
+         mymap.on('locationerror', onLocationError);
+
+         // wrap map.locate in a function    
+         function locate() {
+             mymap.locate({setView: true, maxZoom: 16});
+         }
+
+         // call locate every 3 seconds... forever
+         setInterval(locate, 3000);
+
+         
         </script>
     </body>
 </html>
