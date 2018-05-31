@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Comisarias.kml</name>
+	<Folder>
+		<name>Mis lugares</name>
+		<open>1</open>
+		<Style>
+			<ListStyle>
+				<listItemType>check</listItemType>
+				<ItemIcon>
+					<state>open</state>
+					<href>files/mysavedplaces_open.png</href>
+				</ItemIcon>
+				<ItemIcon>
+					<state>closed</state>
+					<href>files/mysavedplaces_closed.png</href>
+				</ItemIcon>
+				<bgColor>00ffffff</bgColor>
+				<maxSnippetLines>2</maxSnippetLines>
+			</ListStyle>
+		</Style>
+		<Folder>
+			<name>Recorrido visual</name>
+			<open>1</open>
+			<description><![CDATA[Asegúrate de que la capa de Edificios 3D esté seleccionada
+
+    <]]></description>
+			<Style id="sn_noicon">
+				<IconStyle>
+					<heading>0</heading>
+					<Icon>
+					</Icon>
+					<gx:headingMode>northUp</gx:headingMode>
+				</IconStyle>
+				<LabelStyle>
+					<color>00ffffff</color>
+				</LabelStyle>
+			</Style>
+			<gx:Tour>
+				<name>Iniciar el recorrido aquí</name>
+				<gx:Playlist>
+					<gx:FlyTo>
+						<gx:duration>7</gx:duration>
+						<LookAt>
+							<longitude>2.291433408790398</longitude>
+							<latitude>48.86046599047212</latitude>
+							<altitude>0</altitude>
+							<heading>-44.78443344916974</heading>
+							<tilt>84.50456468378914</tilt>
+							<range>1237.092264232066</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>4</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>5</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>2.292516819664192</longitude>
+							<latitude>48.85698932280409</latitude>
+							<altitude>0</altitude>
+							<heading>-133.4483170172488</heading>
+							<tilt>70.63136956830182</tilt>
+							<range>969.7156365886258</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>6</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>2.295838863036321</longitude>
+							<latitude>48.85722765839494</latitude>
+							<altitude>0</altitude>
+							<heading>144.8330905543111</heading>
+							<tilt>82.11044392463096</tilt>
+							<range>1280.086026374546</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>ffffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>0.6</gx:duration>
+</gx:Wait>
+					<gx:TourControl>
+					</gx:TourControl>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>00ffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:FlyTo>
+						<gx:duration>7</gx:duration>
+						<LookAt>
+							<longitude>-43.20953574843956</longitude>
+							<latitude>-22.950407157676</latitude>
+							<altitude>0</altitude>
+							<heading>-134.4620862063529</heading>
+							<tilt>58.47824597790541</tilt>
+							<range>518.7551361289096</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>3</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>6</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>-43.21454496440098</longitude>
+							<latitude>-22.95360604377341</latitude>
+							<altitude>0</altitude>
+							<heading>-120.57288800332</heading>
+							<tilt>65.17521407189773</tilt>
+							<range>660</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>6</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>-43.21660160057429</longitude>
+							<latitude>-22.94806206144405</latitude>
+							<altitude>0</altitude>
+							<heading>-57.54538440420448</heading>
+							<tilt>80.00485701436207</tilt>
+							<range>1000</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>6</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>-43.20919504667657</longitude>
+							<latitude>-22.95016892675761</latitude>
+							<altitude>0</altitude>
+							<heading>43.40129179538381</heading>
+							<tilt>66.44869267970699</tilt>
+							<range>400</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>ffffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>0.6</gx:duration>
+</gx:Wait>
+					<gx:TourControl>
+					</gx:TourControl>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>00ffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:FlyTo>
+						<gx:duration>8</gx:duration>
+						<LookAt>
+							<longitude>-111.825259364926</longitude>
+							<latitude>36.13629032059509</latitude>
+							<altitude>0</altitude>
+							<heading>-122.0385885563142</heading>
+							<tilt>71.25665521441707</tilt>
+							<range>2881.126209803783</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>5</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>10</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>-111.8178193912654</longitude>
+							<latitude>36.12220415999125</latitude>
+							<altitude>0</altitude>
+							<heading>-20.55049931075685</heading>
+							<tilt>70.46152747623586</tilt>
+							<range>6923.518337176915</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>ffffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>0.6</gx:duration>
+</gx:Wait>
+					<gx:TourControl>
+					</gx:TourControl>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>00ffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:FlyTo>
+						<gx:duration>8</gx:duration>
+						<LookAt>
+							<longitude>151.2122001847845</longitude>
+							<latitude>-33.85543600090152</latitude>
+							<altitude>0</altitude>
+							<heading>-136.7378847758026</heading>
+							<tilt>68.87493344592141</tilt>
+							<range>1332.179816629172</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>5</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>8</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>151.2102747218619</longitude>
+							<latitude>-33.86562371282643</latitude>
+							<altitude>0</altitude>
+							<heading>-100.9504733403397</heading>
+							<tilt>61.69903309250663</tilt>
+							<range>1157.567447390761</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>8</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>151.2084567507541</longitude>
+							<latitude>-33.8719709424179</latitude>
+							<altitude>0</altitude>
+							<heading>-30.97913448260641</heading>
+							<tilt>73.81737727550399</tilt>
+							<range>1804.653308065182</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>ffffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>1</gx:duration>
+</gx:Wait>
+					<gx:TourControl>
+					</gx:TourControl>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>00ffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:FlyTo>
+						<gx:duration>7</gx:duration>
+						<LookAt>
+							<longitude>12.45863229278517</longitude>
+							<latitude>41.90238356414683</latitude>
+							<altitude>0</altitude>
+							<heading>-88.09821473983064</heading>
+							<tilt>72.55531058146758</tilt>
+							<range>545.5229608700497</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>2</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>4</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>12.45576850829061</longitude>
+							<latitude>41.90259432723413</latitude>
+							<altitude>0</altitude>
+							<heading>-45.63719485912762</heading>
+							<tilt>67.45254428277359</tilt>
+							<range>440.4364927688193</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>5</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>12.45521415868397</longitude>
+							<latitude>41.90223391472421</latitude>
+							<altitude>0</altitude>
+							<heading>62.2555896882265</heading>
+							<tilt>56.44844484217481</tilt>
+							<range>660</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>5</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>12.45542893820797</longitude>
+							<latitude>41.90247136879627</latitude>
+							<altitude>0</altitude>
+							<heading>143.1756044668531</heading>
+							<tilt>54.3757116252694</tilt>
+							<range>630.2289324677029</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>4</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>12.45514725466031</longitude>
+							<latitude>41.90208944848824</latitude>
+							<altitude>0</altitude>
+							<heading>-126.2904640924972</heading>
+							<tilt>62.98553010498054</tilt>
+							<range>973.0823093362777</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>ffffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>0.6</gx:duration>
+</gx:Wait>
+					<gx:TourControl>
+					</gx:TourControl>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>00ffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:FlyTo>
+						<gx:duration>9</gx:duration>
+						<LookAt>
+							<longitude>-0.120788371613878</longitude>
+							<latitude>51.50501055442484</latitude>
+							<altitude>0</altitude>
+							<heading>-26.35029775803154</heading>
+							<tilt>73.05226006937514</tilt>
+							<range>454.4339921427415</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>4</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>3</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>-0.1218913821474976</longitude>
+							<latitude>51.50305583632267</latitude>
+							<altitude>0</altitude>
+							<heading>-104.133103977011</heading>
+							<tilt>62.33871582343829</tilt>
+							<range>464.9005677104844</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>3</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>-0.1210052471346601</longitude>
+							<latitude>51.50193262427588</latitude>
+							<altitude>0</altitude>
+							<heading>-148.4647519019507</heading>
+							<tilt>62.49820488326289</tilt>
+							<range>467.9437060050972</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>ffffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>0.6</gx:duration>
+</gx:Wait>
+					<gx:TourControl>
+					</gx:TourControl>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>00ffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:FlyTo>
+						<gx:duration>10</gx:duration>
+						<LookAt>
+							<longitude>-49.94775814514536</longitude>
+							<latitude>41.72923316238139</latitude>
+							<altitude>0</altitude>
+							<heading>-22.16745101595302</heading>
+							<tilt>58.51118653734172</tilt>
+							<range>15751.03428612136</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>3</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>3</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>-49.95064833173971</longitude>
+							<latitude>41.73675356498745</latitude>
+							<altitude>0</altitude>
+							<heading>-22.0614952772804</heading>
+							<tilt>58.41962787655594</tilt>
+							<range>3785.050923503806</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>3</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>-49.94963603456613</longitude>
+							<latitude>41.73044100800762</latitude>
+							<altitude>0</altitude>
+							<heading>-21.98561736233518</heading>
+							<tilt>59.14449309551124</tilt>
+							<range>1298.527712044066</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>3</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>-49.9476723120594</longitude>
+							<latitude>41.73049451623312</latitude>
+							<altitude>0</altitude>
+							<heading>39.17295296812819</heading>
+							<tilt>67.43152193490242</tilt>
+							<range>877.6242516424816</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>3</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>-49.94932550499109</longitude>
+							<latitude>41.73351808554008</latitude>
+							<altitude>0</altitude>
+							<heading>62.89000376535781</heading>
+							<tilt>76.83720128724194</tilt>
+							<range>184.8131750740089</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>3</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>-49.94863305687194</longitude>
+							<latitude>41.7346904804198</latitude>
+							<altitude>0</altitude>
+							<heading>162.2375295003862</heading>
+							<tilt>70.14149365018284</tilt>
+							<range>231.5863465484218</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>ffffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>0.6</gx:duration>
+</gx:Wait>
+					<gx:TourControl>
+					</gx:TourControl>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>00ffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:FlyTo>
+						<gx:duration>14</gx:duration>
+						<LookAt>
+							<longitude>116.3908088768237</longitude>
+							<latitude>39.91379916102216</latitude>
+							<altitude>0</altitude>
+							<heading>-1.138855209962087</heading>
+							<tilt>63.78082439241467</tilt>
+							<range>804.0076519351231</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>4</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>4</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>116.3902022277641</longitude>
+							<latitude>39.91548590997697</latitude>
+							<altitude>0</altitude>
+							<heading>36.54261588920597</heading>
+							<tilt>53.23349045734695</tilt>
+							<range>1284.830404072757</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>5</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>116.3894381947359</longitude>
+							<latitude>39.91647028464102</latitude>
+							<altitude>0</altitude>
+							<heading>109.9844905127141</heading>
+							<tilt>77.81184480203503</tilt>
+							<range>434.044223900926</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>ffffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>0.6</gx:duration>
+</gx:Wait>
+					<gx:TourControl>
+					</gx:TourControl>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>00ffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:FlyTo>
+						<gx:duration>13</gx:duration>
+						<LookAt>
+							<longitude>138.7818265722904</longitude>
+							<latitude>35.34063009043844</latitude>
+							<altitude>0</altitude>
+							<heading>-62.46343745766319</heading>
+							<tilt>67.6064862659656</tilt>
+							<range>7131.323646428426</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>2</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>5</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>138.732831233965</longitude>
+							<latitude>35.34631761100981</latitude>
+							<altitude>0</altitude>
+							<heading>8.54680114884243</heading>
+							<tilt>63.6005664023261</tilt>
+							<range>4599.456156339281</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>5</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>138.7117696613163</longitude>
+							<latitude>35.35924486897797</latitude>
+							<altitude>0</altitude>
+							<heading>77.97081549606358</heading>
+							<tilt>65.19409798035845</tilt>
+							<range>8748.160445429821</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>ffffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:Wait><gx:duration>0.6</gx:duration>
+</gx:Wait>
+					<gx:TourControl>
+					</gx:TourControl>
+					<gx:AnimatedUpdate>
+						<gx:duration>0.5</gx:duration>
+						<Update>
+							<targetHref></targetHref>
+							<Change><ScreenOverlay targetId="continue"><visibility>1</visibility><color>00ffffff</color></ScreenOverlay></Change>
+						</Update>
+					</gx:AnimatedUpdate>
+					<gx:FlyTo>
+						<gx:duration>8</gx:duration>
+						<LookAt>
+							<longitude>-122.0820910773159</longitude>
+							<latitude>37.41931975444069</latitude>
+							<altitude>0</altitude>
+							<heading>-25.52915008078697</heading>
+							<tilt>60.16567815354701</tilt>
+							<range>421.7487119859438</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>3</gx:duration>
+</gx:Wait>
+					<gx:FlyTo>
+						<gx:duration>3</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>-122.0828356355515</longitude>
+							<latitude>37.41970831813314</latitude>
+							<altitude>0</altitude>
+							<heading>-48.22990007554524</heading>
+							<tilt>77.38490900520242</tilt>
+							<range>281.1183154577782</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>3</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>-122.0837867591564</longitude>
+							<latitude>37.42075190046511</latitude>
+							<altitude>0</altitude>
+							<heading>-48.20230753378853</heading>
+							<tilt>77.38416695218248</tilt>
+							<range>196.354133688462</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>4</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>-122.0845501159868</longitude>
+							<latitude>37.4218699663417</latitude>
+							<altitude>0</altitude>
+							<heading>-69.56777763392701</heading>
+							<tilt>70.05009898715139</tilt>
+							<range>179.6078491941072</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>4</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>-122.0865370283483</longitude>
+							<latitude>37.42216403229413</latitude>
+							<altitude>0</altitude>
+							<heading>-76.24554149800839</heading>
+							<tilt>66.0643204358401</tilt>
+							<range>186.138599501638</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>4</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>-122.0855609773483</longitude>
+							<latitude>37.42182792652437</latitude>
+							<altitude>0</altitude>
+							<heading>136.7389026227908</heading>
+							<tilt>53.07129205583576</tilt>
+							<range>205.5505645659833</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:FlyTo>
+						<gx:duration>4</gx:duration>
+						<gx:flyToMode>smooth</gx:flyToMode>
+						<LookAt>
+							<longitude>-122.0857031347691</longitude>
+							<latitude>37.42169546784739</latitude>
+							<altitude>0</altitude>
+							<heading>51.91673446403121</heading>
+							<tilt>50.75900171716816</tilt>
+							<range>232.187882698068</range>
+							<altitudeMode>relativeToGround</altitudeMode>
+						</LookAt>
+					</gx:FlyTo>
+					<gx:Wait><gx:duration>0.6</gx:duration>
+</gx:Wait>
+					<gx:TourControl>
+					</gx:TourControl>
+				</gx:Playlist>
+			</gx:Tour>
+			<Folder>
+				<name>tags</name>
+				<Style>
+					<ListStyle>
+						<listItemType>checkHideChildren</listItemType>
+						<bgColor>00ffffff</bgColor>
+						<maxSnippetLines>2</maxSnippetLines>
+					</ListStyle>
+				</Style>
+				<ScreenOverlay id="continue">
+					<name>continue</name>
+					<color>00ffffff</color>
+					<Icon>
+						<href>files/continue.png</href>
+					</Icon>
+					<overlayXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+					<screenXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+					<rotationXY x="0" y="0" xunits="fraction" yunits="fraction"/>
+					<size x="0" y="0" xunits="fraction" yunits="fraction"/>
+				</ScreenOverlay>
+			</Folder>
+			<Folder>
+			  <name>Comisaría 1</name>
+              <!-- <Placemark> -->
+			  <!--   	<name>Comisaría 1ra Metropolitana</name> -->
+			  <!--   	<description>Avda Tte Pedro Rodi c/ Tte Guillermo Arias</description> -->
+			  <!--   	<LookAt> -->
+			  <!--   		<longitude>-57.64886230015415</longitude> -->
+			  <!--   		<latitude>-25.27879600293468</latitude> -->
+			  <!--   		<altitude>0</altitude> -->
+			  <!--   		<heading>1.326055113657091</heading> -->
+			  <!--   		<tilt>34.88468573000305</tilt> -->
+			  <!--   		<range>625.2290127314681</range> -->
+			  <!--   		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+			  <!--   	</LookAt> -->
+			  <!--   	<styleUrl>#msn_C7</styleUrl> -->
+			  <!--   	<Point> -->
+			  <!--   		<coordinates>-57.65010145811991,-25.28028951341112,0</coordinates> -->
+			  <!--   	</Point> -->
+			  <!--   </Placemark> -->
+				<Placemark>
+					<name>Jurisdicción Comisaría 1ra Metropolitana</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.65863063735605,-25.2894568481246,0 -57.64785160945867,-25.28778695994125,0 -57.64693612020641,-25.28645346752555,0 -57.64414682455093,-25.28807327818526,0 -57.63516676955675,-25.27502457463165,0 -57.63632980346846,-25.27510208872598,0 -57.63809887872081,-25.2759067737676,0 -57.64032530726413,-25.27585026841187,0 -57.64168343850637,-25.27563890550751,0 -57.64242613877408,-25.2751935672243,0 -57.64277190622195,-25.27495893020183,0 -57.6434383774885,-25.2746298080827,0 -57.64440495156716,-25.27427748391895,0 -57.64573397116407,-25.27353650893359,0 -57.64765593908243,-25.27283077458107,0 -57.64983563881394,-25.27327191551916,0 -57.65156705963961,-25.27353664686768,0 -57.65266741942561,-25.27387670898559,0 -57.65463792413778,-25.2746513023567,0 -57.65675471873475,-25.27580455634898,0 -57.65702235491369,-25.27585787545397,0 -57.66097257102952,-25.27788751222793,0 -57.66629163756921,-25.28244142752443,0 -57.66771934465632,-25.28506517852439,0 -57.66815825567628,-25.28565325279563,0 -57.66887613233764,-25.28731112093654,0 -57.66911707158487,-25.28756097984217,0 -57.66951381848763,-25.28786025352217,0 -57.6704895659183,-25.29177565904683,0 -57.67049292337473,-25.29342202664782,0 -57.66847901427583,-25.29305495087704,0 -57.66866535384088,-25.29218879830641,0 -57.66766201132604,-25.29194177614536,0 -57.66784884892794,-25.29107433625513,0 -57.65863063735605,-25.2894568481246,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Comisaría 2</name>
+				<Placemark>
+					<name>Jurisdicción Comisaría 2da Metropolitana</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.67087375937334,-25.30322705618602,0 -57.670274709812,-25.30458855241621,0 -57.67036652888697,-25.30525782915085,0 -57.66994763150315,-25.30548009336518,0 -57.66993270209385,-25.30596659953857,0 -57.67032822766482,-25.3068478053366,0 -57.66954523449583,-25.3074299394144,0 -57.66985440181037,-25.30795656636106,0 -57.6698077434317,-25.30846971682795,0 -57.66962457793096,-25.30891328244135,0 -57.66961622854854,-25.30973353481703,0 -57.66995393153509,-25.31053866551743,0 -57.67061908376198,-25.3117398815524,0 -57.66326160677171,-25.31283740490456,0 -57.66322509373548,-25.31275565814049,0 -57.66200105301907,-25.31168483576887,0 -57.66087179130538,-25.31157188368684,0 -57.65896661206746,-25.31198628435739,0 -57.65479761269992,-25.30900269759615,0 -57.65459236340928,-25.30860098300972,0 -57.6552614233176,-25.30789253129687,0 -57.65247456066712,-25.30501475062463,0 -57.65383025018812,-25.30419813182805,0 -57.6501685236152,-25.29881997945535,0 -57.64321426942379,-25.28862582394186,0 -57.64580707101568,-25.28715741566251,0 -57.64624247363726,-25.28690955575223,0 -57.64666061910415,-25.28667720532602,0 -57.64692789299481,-25.28650812251122,0 -57.6477884183788,-25.28777202338242,0 -57.64784076191781,-25.28782293519887,0 -57.65514800793347,-25.28891688913198,0 -57.65583357606653,-25.28904418605357,0 -57.65648367546551,-25.28913398216356,0 -57.65700350990827,-25.2892289463273,0 -57.65744917241798,-25.28931130932915,0 -57.65884224651652,-25.28949002918261,0 -57.65940508850544,-25.28961104108251,0 -57.65990836789914,-25.28969824919096,0 -57.66083333011955,-25.2898304215862,0 -57.66125599179064,-25.28992204410472,0 -57.66166559652751,-25.29001017289985,0 -57.66211962127382,-25.2901061263941,0 -57.66264923364715,-25.29018697951947,0 -57.66315125941659,-25.29025053556159,0 -57.66360256175362,-25.29033280557086,0 -57.66405398771687,-25.29041541766307,0 -57.66442970569267,-25.2904492796572,0 -57.66788646143526,-25.29108633627323,0 -57.66773390159179,-25.29203175461366,0 -57.66830002997128,-25.2921335922116,0 -57.66865439051017,-25.29219892044951,0 -57.66847787585104,-25.29298512527178,0 -57.66845332681649,-25.29307765646717,0 -57.66955352253813,-25.29325332041008,0 -57.67051730791291,-25.2934161184807,0 -57.67064782152571,-25.29428675921069,0 -57.6708403185342,-25.29439077528228,0 -57.67064560687451,-25.29505161986386,0 -57.67090281392619,-25.29548578646278,0 -57.67005019356321,-25.30083577174154,0 -57.6711653031053,-25.30177098102206,0 -57.67071984670331,-25.30269446023798,0 -57.67087375937334,-25.30322705618602,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaría 2da Metropolitana</name> -->
+				<!-- 	<description>Portugal y Narciso López</description> -->
+				<!-- 	<LookAt> -->
+				<!-- 		<longitude>-57.65460750036667</longitude> -->
+				<!-- 		<latitude>-25.29474298335912</latitude> -->
+				<!-- 		<altitude>0</altitude> -->
+				<!-- 		<heading>0.03840494188915891</heading> -->
+				<!-- 		<tilt>0</tilt> -->
+				<!-- 		<range>265.7750059446609</range> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</LookAt> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.65386354955958,-25.29444848469493,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+			</Folder>
+			<Folder>
+				<name>Comisaría 3</name>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaría 3ra Metropolitana</name> -->
+				<!-- 	<description>Chile e/ Manduvirá y Jejuí</description> -->
+				<!-- 	<LookAt> -->
+				<!-- 		<longitude>-57.63593562268078</longitude> -->
+				<!-- 		<latitude>-25.28668714300799</latitude> -->
+				<!-- 		<altitude>0</altitude> -->
+				<!-- 		<heading>0.03042803896444616</heading> -->
+				<!-- 		<tilt>0</tilt> -->
+				<!-- 		<range>1055.880911473534</range> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</LookAt> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.63947866303681,-25.2885539818284,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+				<Placemark>
+					<name>Jurisdicción Comisaría 3ra Metropolitana</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.62596490908389,-25.29847491611903,0 -57.62068648727816,-25.30154920729432,0 -57.62076460332712,-25.30130681719184,0 -57.62046476040501,-25.30019289637349,0 -57.61479359882944,-25.2919964247166,0 -57.61443020327083,-25.29159768669427,0 -57.61333140083764,-25.28981843267498,0 -57.61380279652633,-25.28945323864283,0 -57.6125606438441,-25.28699847489394,0 -57.61667927749203,-25.2862313531512,0 -57.61760820338861,-25.28602340240944,0 -57.62709357081995,-25.28385381314918,0 -57.62917102002102,-25.28369512367572,0 -57.63058721027953,-25.28292405239414,0 -57.63451876768707,-25.28067617300111,0 -57.63725355513248,-25.27810063606079,0 -57.64413739775727,-25.28808638113775,0 -57.62596490908389,-25.29847491611903,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Comisaría 4</name>
+				<Placemark>
+					<name>Jurisdicción Comisaría 4ta Metropolitana</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.65378941022158,-25.30420862879617,0 -57.65243393737275,-25.30502217720305,0 -57.65512396805478,-25.30789727855689,0 -57.65456535484793,-25.30854247689426,0 -57.65467423842987,-25.30904137049803,0 -57.65905255583814,-25.31204497900886,0 -57.66090797210629,-25.31155643859631,0 -57.66208228006078,-25.31170472397005,0 -57.66328115937527,-25.31280801958681,0 -57.67061908376198,-25.3117398815524,0 -57.67104110621469,-25.31324796671911,0 -57.67120155674412,-25.31363380453601,0 -57.67112812324379,-25.31382806412097,0 -57.67104200585648,-25.31455058910645,0 -57.67082689566639,-25.31487292768128,0 -57.67044275380013,-25.31601404959119,0 -57.66693241036578,-25.31712405279793,0 -57.66624007092634,-25.31709186645836,0 -57.66427111443956,-25.31742941007773,0 -57.66199141441972,-25.31743864640596,0 -57.65046694080843,-25.31554041146942,0 -57.64727404170814,-25.31415591729094,0 -57.64656987791264,-25.31287325677796,0 -57.64588940573445,-25.31188948380947,0 -57.64661509547788,-25.31150740815139,0 -57.64046873888622,-25.30261215973398,0 -57.63799594771401,-25.30404900145972,0 -57.63605079660251,-25.30112897419064,0 -57.63174078622864,-25.29520225382492,0 -57.64321015991494,-25.28862969652018,0 -57.65378941022158,-25.30420862879617,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaría 4a Metropolitana</name> -->
+				<!-- 	<description>Independencia Nacional C/ Cerro León</description> -->
+				<!-- 	<LookAt> -->
+				<!-- 		<longitude>-57.64716593971573</longitude> -->
+				<!-- 		<latitude>-25.30127328892169</latitude> -->
+				<!-- 		<altitude>0</altitude> -->
+				<!-- 		<heading>0.02147030046500422</heading> -->
+				<!-- 		<tilt>0</tilt> -->
+				<!-- 		<range>3224.566012253446</range> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</LookAt> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.64370877179427,-25.29763978722859,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+			</Folder>
+			<Folder>
+				<name>Comisaría 5</name>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaría 5ta Metropolitana</name> -->
+				<!-- 	<open>1</open> -->
+				<!-- 	<description>Mcal López c/ Kubischeck</description> -->
+				<!-- 	<LookAt> -->
+				<!-- 		<longitude>-57.62773790506483</longitude> -->
+				<!-- 		<latitude>-25.28408123526372</latitude> -->
+				<!-- 		<altitude>0</altitude> -->
+				<!-- 		<heading>0.08245022880976405</heading> -->
+				<!-- 		<tilt>26.10594641010421</tilt> -->
+				<!-- 		<range>1937.409213973365</range> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</LookAt> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.6257265341697,-25.28353754377406,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 5ta Metropolitana</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.62933544990892,-25.28363076536568,0 -57.62218178106763,-25.28501139182102,0 -57.61690193076565,-25.28066193898459,0 -57.62031016038664,-25.27580336858496,0 -57.62121988418231,-25.27315689316294,0 -57.62449844009183,-25.27309265021798,0 -57.62724754123529,-25.27339791586271,0 -57.62734592065303,-25.2739776898864,0 -57.62800580126577,-25.2747390882611,0 -57.62981455987709,-25.27590472120376,0 -57.63265940056373,-25.27688885251236,0 -57.63446618203577,-25.27506197833162,0 -57.63537334396059,-25.27516015566616,0 -57.63732954238643,-25.2781220781057,0 -57.63707598750684,-25.27828497244951,0 -57.63705078540362,-25.27830911077476,0 -57.63704376281591,-25.27834460275801,0 -57.63694855780763,-25.27844322112835,0 -57.63684014322182,-25.2785169850879,0 -57.63677204679502,-25.27859105650031,0 -57.6366613572386,-25.27867313907586,0 -57.63663431728968,-25.27870984634183,0 -57.63651429380202,-25.27879382416276,0 -57.63647326537787,-25.27882545704531,0 -57.63640555870068,-25.27886237369027,0 -57.63631066542153,-25.2789239943531,0 -57.63617517534977,-25.27901021636041,0 -57.63609383152457,-25.27907182433931,0 -57.63591812961732,-25.27923102110603,0 -57.63586437547497,-25.27924287092504,0 -57.63582373446544,-25.27929198165768,0 -57.63576958934493,-25.27935332512706,0 -57.63570212477985,-25.27940216975192,0 -57.63566150621147,-25.27945125586754,0 -57.63558037340756,-25.27953704850146,0 -57.63552636995739,-25.27957374471534,0 -57.63544531209936,-25.27963499417755,0 -57.63528306825973,-25.2797822074611,0 -57.63521557332002,-25.2798311556484,0 -57.63516144998796,-25.27989255728469,0 -57.63506717421082,-25.27997777286008,0 -57.63501332088957,-25.28002641421393,0 -57.63495935312875,-25.28009972860946,0 -57.634864773002,-25.28019782428498,0 -57.63479726983142,-25.28025907678217,0 -57.63468933139573,-25.28034475309435,0 -57.63464885327187,-25.28038148374501,0 -57.63452747649276,-25.28047935869414,0 -57.63451393524581,-25.2805284335962,0 -57.63454078195564,-25.2805776115375,0 -57.63460804403736,-25.28059008488626,0 -57.63466185336005,-25.28059024876923,0 -57.63474263693164,-25.28055369963451,0 -57.63478297550041,-25.28055382625611,0 -57.62933544990892,-25.28363076536568,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Comisaría 6</name>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaría 6ta Metropolitana</name> -->
+				<!-- 	<description>Mcal López c/ Kubischeck</description> -->
+				<!-- 	<LookAt> -->
+				<!-- 		<longitude>-57.60167334998675</longitude> -->
+				<!-- 		<latitude>-25.29284151187764</latitude> -->
+				<!-- 		<altitude>0</altitude> -->
+				<!-- 		<heading>0.01571345389229005</heading> -->
+				<!-- 		<tilt>0</tilt> -->
+				<!-- 		<range>1294.039202456477</range> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</LookAt> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.60238429161864,-25.29249669457665,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+				<Placemark>
+					<name>Jurisdicción Comisaría 6ta Metropolitana</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.61262337315404,-25.28705468468246,0 -57.61370309385116,-25.28945213341802,0 -57.61338414233683,-25.28977376444968,0 -57.61643495747947,-25.2943591774329,0 -57.61211786756161,-25.29685664941642,0 -57.6052100183924,-25.29884537758806,0 -57.60478768853508,-25.29800545753057,0 -57.60355231182555,-25.29854665475386,0 -57.59427802487177,-25.30136435451819,0 -57.59567866075228,-25.30642161784401,0 -57.59346810270208,-25.30699815455855,0 -57.59082223312637,-25.30773239402329,0 -57.5910593087787,-25.30847496143374,0 -57.58942693847669,-25.30950545807449,0 -57.5870916722973,-25.31176044075916,0 -57.5718535613594,-25.2866506924889,0 -57.5774496597604,-25.28512845363895,0 -57.58224544243237,-25.28524148063887,0 -57.58374326183158,-25.28593384520236,0 -57.58881113996984,-25.28638063880426,0 -57.59445855632544,-25.28695623289947,0 -57.60443579477516,-25.2882713201734,0 -57.61262337315404,-25.28705468468246,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Comisaría 7</name>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaría 7ma Metropolitana</name> -->
+				<!-- 	<LookAt> -->
+				<!-- 		<longitude>-57.60921362173948</longitude> -->
+				<!-- 		<latitude>-25.30410714303382</latitude> -->
+				<!-- 		<altitude>0</altitude> -->
+				<!-- 		<heading>0.003327599352339404</heading> -->
+				<!-- 		<tilt>0</tilt> -->
+				<!-- 		<range>183.6995442256866</range> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</LookAt> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.60911536359206,-25.3045916597533,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+				<Placemark>
+					<name>Polígono sin título</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.61491841385102,-25.30954432318412,0 -57.61195829551919,-25.31231225553096,0 -57.60491898016161,-25.32029311205547,0 -57.60117366977892,-25.32373097441714,0 -57.59749894440814,-25.32614958782794,0 -57.58719008287828,-25.31173676578428,0 -57.58938843998487,-25.30954412403028,0 -57.5910765824524,-25.30846193123009,0 -57.59089484480283,-25.3077650900673,0 -57.5957010884794,-25.30643524457229,0 -57.5944548531287,-25.30142020597334,0 -57.60481010061255,-25.29796415176223,0 -57.60517771473089,-25.29885189395031,0 -57.60561245489886,-25.29869645653257,0 -57.61215570211219,-25.29683015857061,0 -57.61644731305957,-25.29439151710206,0 -57.62041861348049,-25.3000601659789,0 -57.62071960141682,-25.3014732303396,0 -57.6200381641792,-25.30398294745156,0 -57.6187832331013,-25.3069410259184,0 -57.61491841385102,-25.30954432318412,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Comisaría 8</name>
+				<Placemark>
+					<name>Jurisdicción Comisaría 8va Metropolitana</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.62609753042973,-25.33195818843283,0 -57.62861545061327,-25.32180025407581,0 -57.6307892626124,-25.31273988501468,0 -57.63309016362851,-25.31333841113452,0 -57.63448263027894,-25.31276273704322,0 -57.63540546465534,-25.3123580310962,0 -57.63735971792758,-25.31130648178818,0 -57.63769528354815,-25.31179021532277,0 -57.63892913333824,-25.31323475017444,0 -57.64022280711521,-25.31366800610998,0 -57.64599442019295,-25.31396084662831,0 -57.64255000974357,-25.31595112227477,0 -57.63918798673547,-25.31776002120612,0 -57.63828792991262,-25.31772788726202,0 -57.63870926913597,-25.31845690013002,0 -57.64170147489782,-25.32041398466709,0 -57.64279050412793,-25.32079043606341,0 -57.64309478641567,-25.32131161592647,0 -57.64375141225897,-25.32155774792731,0 -57.64386352615961,-25.32142746264369,0 -57.64400766941358,-25.32138403918772,0 -57.64410376375763,-25.32141299727372,0 -57.64558685468384,-25.32256701945077,0 -57.64747128901566,-25.32474403849669,0 -57.64920581673507,-25.32648881686393,0 -57.65059763494987,-25.32675922267142,0 -57.6512517503964,-25.32791398581222,0 -57.65033318848025,-25.32870183880091,0 -57.65146366618652,-25.32980568226681,0 -57.64786339834695,-25.33534890973295,0 -57.64825331964887,-25.33520646821568,0 -57.64863596585619,-25.33514845679174,0 -57.6491049764016,-25.33518196889941,0 -57.64948019450161,-25.33520878056308,0 -57.64388831692182,-25.33619154056604,0 -57.64300199697936,-25.33654594357515,0 -57.64226513436981,-25.33678547370243,0 -57.64027390217952,-25.33795432268719,0 -57.63968793037967,-25.33833349675157,0 -57.63920294673572,-25.33803509105396,0 -57.63905783621793,-25.33802471750665,0 -57.6379265829506,-25.33741516464629,0 -57.63773857953689,-25.33742584756113,0 -57.63749972627119,-25.33740859200433,0 -57.6374080337816,-25.33754736409765,0 -57.63735499387021,-25.33754352272005,0 -57.63621288419989,-25.33838158463822,0 -57.63597786502638,-25.33831618028561,0 -57.63560592950134,-25.33828930303919,0 -57.63536712507783,-25.338271986905,0 -57.63518188811583,-25.33825844661919,0 -57.63502967378373,-25.33817465750832,0 -57.63492822748499,-25.33811881526279,0 -57.63480036911729,-25.33806105764944,0 -57.63469680625819,-25.33802929412256,0 -57.63453552594499,-25.33801804684715,0 -57.63448165379988,-25.33801430775992,0 -57.63323806925794,-25.33714757801937,0 -57.629238554373,-25.33387707384042,0 -57.62609753042973,-25.33195818843283,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+<!-- 				<Placemark> -->
+<!-- 					<name>comisaria 8</name> -->
+<!-- 					<LookAt> -->
+<!-- 						<gx:TimeStamp><when>2010-12-12T14:37:52Z</when> -->
+<!-- </gx:TimeStamp> -->
+<!-- 						<longitude>-57.63527355143562</longitude> -->
+<!-- 						<latitude>-25.31722921243296</latitude> -->
+<!-- 						<altitude>0</altitude> -->
+<!-- 						<heading>-0.001156185161082173</heading> -->
+<!-- 						<tilt>0</tilt> -->
+<!-- 						<range>869.2023168394106</range> -->
+<!-- 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+<!-- 					</LookAt> -->
+<!-- 					<Point> -->
+<!-- 						<coordinates>-57.63300585867044,-25.31561269120502,0</coordinates> -->
+<!-- 					</Point> -->
+<!-- 				</Placemark> -->
+			</Folder>
+			<Folder>
+				<name>Comisaría 9</name>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaria 9na Metropolitana</name> -->
+				<!-- 	<LookAt> -->
+				<!-- 		<longitude>-57.60995886828826</longitude> -->
+				<!-- 		<latitude>-25.2780494214659</latitude> -->
+				<!-- 		<altitude>0</altitude> -->
+				<!-- 		<heading>-0.00145112971505714</heading> -->
+				<!-- 		<tilt>0</tilt> -->
+				<!-- 		<range>216.318511353383</range> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</LookAt> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.60978924634343,-25.27823479170802,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+				<Placemark>
+					<name>Jurisdicción Comisaría 9na Metropolitana</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.60440751206971,-25.28830098005762,0 -57.60337462656771,-25.28816588216001,0 -57.60238768585667,-25.28411180668749,0 -57.60597545167707,-25.27524168102794,0 -57.59882160427496,-25.2727318134573,0 -57.59974206292549,-25.27076116553793,0 -57.60020113014095,-25.26996046683436,0 -57.60080780130026,-25.27011932268539,0 -57.6016988755909,-25.26944615819619,0 -57.60460890538393,-25.2660440835098,0 -57.60619593433743,-25.26616927924674,0 -57.60647628506678,-25.26682169124083,0 -57.61273938020805,-25.26849528070178,0 -57.61533680054316,-25.27098747198945,0 -57.61590797410934,-25.27016487415273,0 -57.61679050090184,-25.27118443838694,0 -57.61788711519955,-25.27026189341895,0 -57.61814557636798,-25.27253641737375,0 -57.61813048227999,-25.27257753961145,0 -57.61805474196581,-25.2725911755492,0 -57.6179789760468,-25.27259109820387,0 -57.61791835889382,-25.272591037366,0 -57.61787289358168,-25.27259099097517,0 -57.61822234430485,-25.27312607130394,0 -57.61847990438496,-25.27397438258002,0 -57.6185250573948,-25.27311254418042,0 -57.61851029064521,-25.27304836577341,0 -57.6186680557885,-25.27280387128718,0 -57.61893633888809,-25.27252533958795,0 -57.61916177656418,-25.27263144364244,0 -57.61942440911127,-25.27268834574971,0 -57.61937531692993,-25.27285346407461,0 -57.61952871252252,-25.27294657911023,0 -57.61964830884499,-25.27299659320009,0 -57.61991516754088,-25.27413011625218,0 -57.61995022382055,-25.27416181030104,0 -57.61993854439962,-25.27420407533474,0 -57.61989161596478,-25.27422537695824,0 -57.61985647761847,-25.27420432507978,0 -57.61985651206084,-25.27418316269429,0 -57.61996159477714,-25.27444734597001,0 -57.62016056445941,-25.27433084166692,0 -57.6203241550285,-25.27439421920458,0 -57.62047606046205,-25.27444703205229,0 -57.62081426011564,-25.27441566308201,0 -57.62035939527657,-25.27572925765683,0 -57.61693712269911,-25.28065620740781,0 -57.62209947655507,-25.28504255807301,0 -57.61261928122419,-25.28704964160247,0 -57.60440751206971,-25.28830098005762,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Comisaría 10</name>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaría 10ma Metropolitana</name> -->
+				<!-- 	<LookAt> -->
+				<!-- 		<longitude>-57.54842922205967</longitude> -->
+				<!-- 		<latitude>-25.27628194154092</latitude> -->
+				<!-- 		<altitude>0</altitude> -->
+				<!-- 		<heading>-0.02409639626446725</heading> -->
+				<!-- 		<tilt>0</tilt> -->
+				<!-- 		<range>415.3291027768786</range> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</LookAt> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.54892501460163,-25.27612491975387,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+				<Placemark>
+					<name>jurisdicción Comisaría 10ma Metropolitana</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.58871786292334,-25.28637364928864,0 -57.58375165914508,-25.28597806064689,0 -57.58223341992363,-25.28526405792235,0 -57.57735564142278,-25.28509745333324,0 -57.5719655579919,-25.28664452324646,0 -57.56686260587961,-25.2837546018707,0 -57.56479837324592,-25.2835191234362,0 -57.56263254922921,-25.284024470438,0 -57.56012247925347,-25.28486067866187,0 -57.55414071321935,-25.28880512501299,0 -57.55008576732629,-25.29315229826642,0 -57.54519237542363,-25.29877095575522,0 -57.54476964481307,-25.29896159902244,0 -57.54415762146621,-25.29777260671357,0 -57.54391640594043,-25.29683196040885,0 -57.54380516925028,-25.29681067976902,0 -57.54366928787401,-25.29679521607282,0 -57.54355782039935,-25.29677398815608,0 -57.54346462763149,-25.29672467392349,0 -57.54333401500675,-25.29663665041352,0 -57.54323446312567,-25.29656506450035,0 -57.54318431023751,-25.2964817992456,0 -57.54323932652822,-25.29639744139569,0 -57.54331344141302,-25.29637991504218,0 -57.54287262923504,-25.2952936010191,0 -57.54370076686667,-25.29421408461817,0 -57.54340193232379,-25.29316138433877,0 -57.54220161123924,-25.29220530631105,0 -57.5418244288402,-25.29097833164704,0 -57.54155836708399,-25.28912308661164,0 -57.54029759672007,-25.2772382981978,0 -57.54073423590184,-25.27510635687874,0 -57.54089539976411,-25.27322425781076,0 -57.54191025369752,-25.2714581221506,0 -57.54041313786809,-25.26816071437833,0 -57.53542299261748,-25.25924001940411,0 -57.5470966311066,-25.25734259388613,0 -57.5514233594545,-25.25695910579469,0 -57.55141486864522,-25.2568264353388,0 -57.55141365097113,-25.25671894277919,0 -57.55148885204016,-25.25656640830808,0 -57.5514949230647,-25.25648408760694,0 -57.55790431227553,-25.25642437001781,0 -57.55789324949998,-25.2579743027277,0 -57.55895477291656,-25.25798299536439,0 -57.55876998807054,-25.26017138340371,0 -57.55982355121741,-25.26247106317663,0 -57.5657390807201,-25.25912760521448,0 -57.56755188304497,-25.26698345292755,0 -57.56946337196169,-25.26562341142632,0 -57.57160867933195,-25.26973554780148,0 -57.57221358327204,-25.26909738331866,0 -57.57287869416072,-25.26963283612475,0 -57.57410135555615,-25.26810746918543,0 -57.57491535661632,-25.26862011128172,0 -57.57594655324164,-25.26961508343885,0 -57.57536566868662,-25.27009345708405,0 -57.57625568411468,-25.27107170195289,0 -57.57529562561881,-25.271760180652,0 -57.57600431350374,-25.27256298237765,0 -57.57562863786655,-25.27289083770855,0 -57.57657785554497,-25.27346046042342,0 -57.57692873567613,-25.27454997964168,0 -57.57642111926283,-25.27466952980503,0 -57.5766412830862,-25.27538739028421,0 -57.57690243260284,-25.27564196794081,0 -57.57883137979326,-25.2786063856129,0 -57.57930949228236,-25.28004792933551,0 -57.58629820225283,-25.27830319659386,0 -57.58871786292334,-25.28637364928864,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Comisaría 11</name>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaría 11a Metropolitana</name> -->
+				<!-- 	<LookAt> -->
+				<!-- 		<longitude>-57.56784661326688</longitude> -->
+				<!-- 		<latitude>-25.30190546699844</latitude> -->
+				<!-- 		<altitude>0</altitude> -->
+				<!-- 		<heading>14.64615741616017</heading> -->
+				<!-- 		<tilt>0.2484160631592026</tilt> -->
+				<!-- 		<range>591.1323298651582</range> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</LookAt> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.5677008817238,-25.30193988176166,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+				<Placemark>
+					<name>Jurisdicción Comisaría 11a Metropolitana</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.57179708033472,-25.28647313214821,0 -57.58693035776169,-25.31180721175667,0 -57.57297022904755,-25.31696762346727,0 -57.56031522756923,-25.32015780977492,0 -57.55735461083111,-25.31602645710084,0 -57.55421464413747,-25.31078707099234,0 -57.55302937323611,-25.31120304168996,0 -57.5524531540836,-25.30932358132446,0 -57.55109924196853,-25.30742819552009,0 -57.54521385080287,-25.29876749153095,0 -57.55178198945538,-25.29152953991484,0 -57.55465260179118,-25.28862765255879,0 -57.56052417570898,-25.28470814729868,0 -57.5654869274284,-25.28342969993609,0 -57.57179708033472,-25.28647313214821,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Comisaría 12</name>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaría 12a Metropolitana</name> -->
+				<!-- 	<Camera> -->
+				<!-- 		<longitude>-57.58076903149724</longitude> -->
+				<!-- 		<latitude>-25.26013187411452</latitude> -->
+				<!-- 		<altitude>728.8237107124533</altitude> -->
+				<!-- 		<heading>10.2860368559227</heading> -->
+				<!-- 		<tilt>1.269303815209255</tilt> -->
+				<!-- 		<roll>2.540695855668449</roll> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</Camera> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.58052992560983,-25.25983440591964,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+				<Placemark>
+					<name>Jurisdición Comisaría 12 Metropolitana</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.58406032746613,-25.2709471323974,0 -57.5863753713227,-25.27836039472292,0 -57.57952810170846,-25.28003583025689,0 -57.57885290945068,-25.27841870664602,0 -57.57675429780546,-25.27555640263365,0 -57.57648552414298,-25.27472255020416,0 -57.57698821996242,-25.27454372914787,0 -57.57652076252587,-25.27341776127241,0 -57.5758032087704,-25.27292787565959,0 -57.57597823446749,-25.27263014600672,0 -57.57525807748372,-25.27184967688083,0 -57.57629754546562,-25.27111167362374,0 -57.57548065201162,-25.27028923648084,0 -57.575968434996,-25.26960632476105,0 -57.57414666233661,-25.26813739019452,0 -57.57285447838196,-25.26960084229093,0 -57.57222971179861,-25.26911606000353,0 -57.571670203066,-25.26957034262891,0 -57.56960503820552,-25.26576228440231,0 -57.56757732197898,-25.2670044855934,0 -57.56596300493897,-25.25912917510562,0 -57.5598726474021,-25.26256020894966,0 -57.55882134238144,-25.2599742712195,0 -57.55905856210357,-25.25781949599361,0 -57.55789942034104,-25.25805688759679,0 -57.55791444381768,-25.25647671607936,0 -57.55885946751189,-25.25640441882163,0 -57.55887415761326,-25.25262321899244,0 -57.55434109094754,-25.25072051326705,0 -57.55490708418899,-25.2496065652241,0 -57.55347558116166,-25.24905616331797,0 -57.55371555587891,-25.24875827406785,0 -57.55656233471468,-25.24838035214192,0 -57.55613130805086,-25.24703748713727,0 -57.55374789360886,-25.2437741029408,0 -57.55171652159402,-25.24071231152605,0 -57.56178775340558,-25.23336210758528,0 -57.56766401688823,-25.2416083472168,0 -57.5771378719215,-25.23572168646962,0 -57.57810680055429,-25.23820053190413,0 -57.58045643318045,-25.24414326816651,0 -57.59028980195698,-25.24325027168121,0 -57.5975124410595,-25.24884720579639,0 -57.59837428205677,-25.25486901236693,0 -57.59369690602525,-25.25898702781994,0 -57.59343206400023,-25.25928134332599,0 -57.59341386058425,-25.26002977323343,0 -57.59397796849132,-25.2604058289632,0 -57.59299856179999,-25.26128847108334,0 -57.59299011356696,-25.2617883472713,0 -57.59281260932483,-25.26206795654021,0 -57.59237285181294,-25.26244983367933,0 -57.59078826824268,-25.26120598202578,0 -57.58406032746613,-25.2709471323974,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Comisaría 13</name>
+				<Folder>
+					<name>com13</name>
+					<open>1</open>
+					<Placemark>
+						<name>juridiccion comisaria 13</name>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+					<Placemark>
+						<name>Untitled Polygon</name>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-57.63657614404466,-25.33823491464552,0 -57.63710983230342,-25.33789724817301,0 -57.63767019735673,-25.33748720982594,0 -57.63855082189238,-25.33784894803308,0 -57.6395381902082,-25.33823479968749,0 -57.64129936280312,-25.33743877002583,0 -57.64341931767801,-25.33642959653662,0 -57.64547408157429,-25.33594700671601,0 -57.6465149136793,-25.33676692333614,0 -57.64672852007011,-25.33792459063632,0 -57.64659515744412,-25.33859992171532,0 -57.64523491873463,-25.34537727599389,0 -57.64534279373084,-25.34825577274935,0 -57.64544752007574,-25.35045504108667,0 -57.64461385758998,-25.35216311903352,0 -57.64474112566203,-25.35478447161229,0 -57.64525091132541,-25.35615533647972,0 -57.6467738625386,-25.35850383066265,0 -57.64604825735395,-25.36195469983353,0 -57.63597914817788,-25.36867052919278,0 -57.6341931600719,-25.36335251851541,0 -57.63417639028759,-25.36314100051727,0 -57.63413902317548,-25.36288972232295,0 -57.63412045783174,-25.36275383011385,0 -57.63408160863677,-25.362558979399,0 -57.63404296927571,-25.36234366024883,0 -57.63402527110946,-25.36214701511498,0 -57.63396403994578,-25.36196929755306,0 -57.63390326857535,-25.36175113158323,0 -57.6338851460277,-25.36155188010162,0 -57.63386797804095,-25.3612915360773,0 -57.63382759746244,-25.36111042007146,0 -57.63378738424481,-25.36090833115716,0 -57.63372483397489,-25.36072568276493,0 -57.63350565366313,-25.36078665068273,0 -57.63319992663607,-25.36080695819907,0 -57.63289394384136,-25.36088808465744,0 -57.63276284419598,-25.36094883369588,0 -57.63245785806407,-25.36094883546183,0 -57.63226180530828,-25.36096906742077,0 -57.63200037894081,-25.36094883633713,0 -57.63178253169436,-25.36094883600587,0 -57.63158726576787,-25.36104990401152,0 -57.63006536074792,-25.35438183024966,0 -57.63002234556178,-25.35402999655714,0 -57.6300012263434,-25.35397418353958,0 -57.62989563476501,-25.35376892502917,0 -57.62983153043155,-25.35356270179035,0 -57.62978791345314,-25.35331772998786,0 -57.62966007813601,-25.35312835699738,0 -57.62847954751482,-25.35316627063936,0 -57.6281912779134,-25.3518907003652,0 -57.63327048131694,-25.3506466805765,0 -57.63326227652682,-25.35064668786547,0 -57.63301833750357,-25.34994687069946,0 -57.63410657233767,-25.34966006179466,0 -57.63383968353663,-25.34852652445818,0 -57.63365286737797,-25.34792358015562,0 -57.63335930131069,-25.34720004945785,0 -57.63333261145129,-25.3469588718696,0 -57.63306572890762,-25.34618710485901,0 -57.63274546767357,-25.34452297432166,0 -57.63258533814275,-25.34435414638827,0 -57.63253196722315,-25.34418532251678,0 -57.63207826789482,-25.34254528806328,0 -57.63199817541458,-25.34121876809917,0 -57.63189140304206,-25.34010930292306,0 -57.63162449572725,-25.33851743114601,0 -57.63372081980465,-25.33840378131054,0 -57.63382755033602,-25.3380420030088,0 -57.63657614404466,-25.33823491464552,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+<!-- 					<Placemark> -->
+<!-- 						<name>comisaria13</name> -->
+<!-- 						<LookAt> -->
+<!-- 							<gx:TimeStamp><when>2010-12-12T14:37:52Z</when> -->
+<!-- </gx:TimeStamp> -->
+<!-- 							<longitude>-57.63748257022594</longitude> -->
+<!-- 							<latitude>-25.3523087679544</latitude> -->
+<!-- 							<altitude>0</altitude> -->
+<!-- 							<heading>-4.770832022195275e-015</heading> -->
+<!-- 							<tilt>0</tilt> -->
+<!-- 							<range>5859.610694112634</range> -->
+<!-- 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+<!-- 						</LookAt> -->
+<!-- 						<Point> -->
+<!-- 							<coordinates>-57.64437355850489,-25.35894526736356,0</coordinates> -->
+<!-- 						</Point> -->
+<!-- 					</Placemark> -->
+				</Folder>
+			</Folder>
+			<Folder>
+				<name>Comisaría 14</name>
+				<Folder>
+					<name>Comisaría 14</name>
+					<open>1</open>
+					<!-- <Placemark> -->
+					<!-- 	<name>Comisaría 14a Metropolitana</name> -->
+					<!-- 	<LookAt> -->
+					<!-- 		<longitude>-57.62051420788306</longitude> -->
+					<!-- 		<latitude>-25.32070071252323</latitude> -->
+					<!-- 		<altitude>0</altitude> -->
+					<!-- 		<heading>14.6686499646814</heading> -->
+					<!-- 		<tilt>0.2498878826333329</tilt> -->
+					<!-- 		<range>650.1775565006908</range> -->
+					<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+					<!-- 	</LookAt> -->
+					<!-- 	<Point> -->
+					<!-- 		<coordinates>-57.62064061155099,-25.32038911272931,0</coordinates> -->
+					<!-- 	</Point> -->
+					<!-- </Placemark> -->
+					<Placemark>
+						<name>Jurisdicción comisaría 14a Metropolitana</name>
+						<Polygon>
+							<tessellate>1</tessellate>
+							<outerBoundaryIs>
+								<LinearRing>
+									<coordinates>
+										-57.60578145837437,-25.31941408525203,0 -57.61017878040683,-25.314274532792,0 -57.61466182945808,-25.30961252409783,0 -57.61863489686413,-25.30696574668249,0 -57.61932173911924,-25.31001969268092,0 -57.61925762479311,-25.31011657313771,0 -57.6197339942057,-25.31111510275409,0 -57.62081239479905,-25.31303330356678,0 -57.621463409331,-25.31261725646733,0 -57.62312309216186,-25.31650197828892,0 -57.62243524182667,-25.31685563783195,0 -57.62948933206481,-25.31838518725409,0 -57.62597639870064,-25.33194496878431,0 -57.62708246918601,-25.33320835672123,0 -57.6204687403185,-25.33299182695961,0 -57.62009190836196,-25.33322554691251,0 -57.61968643107708,-25.33350772792895,0 -57.6188838364985,-25.33374542042864,0 -57.61878668812027,-25.33245644828843,0 -57.6153972942557,-25.3323325499886,0 -57.61393723351232,-25.33211814292604,0 -57.61168777894742,-25.33156218430411,0 -57.61094350736408,-25.33147718141508,0 -57.61099070830639,-25.3307906203954,0 -57.60924343878666,-25.33029567429328,0 -57.6099274850938,-25.32854382865654,0 -57.60870537383299,-25.32817150084535,0 -57.60842956213686,-25.32810812840581,0 -57.60835971846775,-25.32794276730433,0 -57.60880792170803,-25.32747244444326,0 -57.60875536219788,-25.32740580219841,0 -57.60872592793621,-25.32735439402485,0 -57.60869806715926,-25.3273120233647,0 -57.60868019334537,-25.32726822530681,0 -57.60864917251659,-25.32720775378771,0 -57.60863970614035,-25.32715346904833,0 -57.60863181617319,-25.32710822376783,0 -57.6086091967756,-25.32703724488934,0 -57.60860130282497,-25.32699198174026,0 -57.60859182840373,-25.32693765605604,0 -57.60860865215327,-25.3269166766728,0 -57.60863224122507,-25.32687605502042,0 -57.60865903544366,-25.32685358194817,0 -57.60869945808943,-25.32679187321639,0 -57.60873626851663,-25.32676791236129,0 -57.60877625636783,-25.32676209032067,0 -57.609126722555,-25.32671106287678,0 -57.60910202534602,-25.32609053478116,0 -57.6072737194802,-25.32651737008112,0 -57.6031218507074,-25.32230887165441,0 -57.60578145837437,-25.31941408525203,0 
+									</coordinates>
+								</LinearRing>
+							</outerBoundaryIs>
+						</Polygon>
+					</Placemark>
+				</Folder>
+			</Folder>
+			<Folder>
+				<name>Comisaría 15</name>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaría 15a Metropolitana</name> -->
+				<!-- 	<Camera> -->
+				<!-- 		<longitude>-57.58924321920435</longitude> -->
+				<!-- 		<latitude>-25.33457885853235</latitude> -->
+				<!-- 		<altitude>300.8415036800269</altitude> -->
+				<!-- 		<heading>10.03056648753655</heading> -->
+				<!-- 		<tilt>0.2013177907193902</tilt> -->
+				<!-- 		<roll>1.093964934596668</roll> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</Camera> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.58968645826305,-25.33434092950166,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+				<Placemark>
+					<name>Polígono sin título</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.59230347454465,-25.35205872039191,0 -57.58487910024825,-25.33916910513027,0 -57.58133703584836,-25.33637599105327,0 -57.58286595908533,-25.33440276418643,0 -57.58257303200916,-25.33435109433941,0 -57.5833000020104,-25.3327082754798,0 -57.58402728273811,-25.33294958259843,0 -57.5869274288921,-25.33080086038981,0 -57.58708348762211,-25.33091473301572,0 -57.59097701453017,-25.32670120911498,0 -57.5920832865601,-25.32544958587076,0 -57.59155279265045,-25.32497035663561,0 -57.5949925123233,-25.32266287397295,0 -57.59746369081892,-25.32630183589306,0 -57.60180506044539,-25.32323181180139,0 -57.6031367597716,-25.32217370466555,0 -57.60725870756139,-25.32652831023261,0 -57.60911405617554,-25.32608192513585,0 -57.60911562345213,-25.32666891876112,0 -57.60879833302259,-25.32673588140637,0 -57.60867116878534,-25.32683464890647,0 -57.6086255412549,-25.32690846287338,0 -57.60860647333294,-25.32706384836277,0 -57.60867720328719,-25.32726770529323,0 -57.6087847096749,-25.32743015230611,0 -57.6083860227542,-25.32791825863106,0 -57.60842135775489,-25.32808014593713,0 -57.60985699426632,-25.32854052831505,0 -57.6093134436861,-25.33022112149591,0 -57.60486452326276,-25.34194541218709,0 -57.60336911194916,-25.34172689616781,0 -57.60068717061834,-25.34986439290259,0 -57.59869215032214,-25.34961805573398,0 -57.59833979345459,-25.35085345094335,0 -57.59777314031944,-25.35076373002202,0 -57.59807883634214,-25.34961624296678,0 -57.59695030304537,-25.34937525743433,0 -57.59711606576999,-25.35028386742866,0 -57.59538891082451,-25.35114360944448,0 -57.59625472100284,-25.35268458067083,0 -57.59601389687683,-25.35279080460884,0 -57.59449580901351,-25.35354080361828,0 -57.59490260164199,-25.35427728122706,0 -57.59391236036422,-25.35466254118796,0 -57.59230347454465,-25.35205872039191,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Comisaría 16</name>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaría 16a Metropolitana</name> -->
+				<!-- 	<LookAt> -->
+				<!-- 		<longitude>-57.58514682799552</longitude> -->
+				<!-- 		<latitude>-25.3271877639659</latitude> -->
+				<!-- 		<altitude>0</altitude> -->
+				<!-- 		<heading>0.02656046273949457</heading> -->
+				<!-- 		<tilt>0</tilt> -->
+				<!-- 		<range>1017.81251412301</range> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</LookAt> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.58423385690294,-25.32472105903122,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+				<Placemark>
+					<name>Jurisdicción Comisaría 16a Metropolitana</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.59494471738407,-25.32272310199325,0 -57.59158281274765,-25.32494490130264,0 -57.59212549802258,-25.32537716236487,0 -57.58707219483831,-25.33091929466667,0 -57.5868985936769,-25.33078496320816,0 -57.58403469673041,-25.33294730695348,0 -57.5832981885705,-25.33274230078307,0 -57.58258379463963,-25.33436910373072,0 -57.58282950045872,-25.3344369954028,0 -57.58134531684988,-25.33630367977453,0 -57.56029522854653,-25.32027408345466,0 -57.57439161811218,-25.31642853949212,0 -57.58718370608303,-25.31192523293683,0 -57.59494471738407,-25.32272310199325,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Comisaría 18</name>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaría 18a Metropolitana</name> -->
+				<!-- 	<LookAt> -->
+				<!-- 		<longitude>-57.6349969022601</longitude> -->
+				<!-- 		<latitude>-25.30738914794097</latitude> -->
+				<!-- 		<altitude>0</altitude> -->
+				<!-- 		<heading>0.04766685289927516</heading> -->
+				<!-- 		<tilt>0</tilt> -->
+				<!-- 		<range>685.8662651006041</range> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</LookAt> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.63197312305823,-25.30799044781302,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+				<Placemark>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.62068702820425,-25.30150511271427,0 -57.6317104063583,-25.29507880389527,0 -57.63802184797231,-25.30406094649512,0 -57.6355257401171,-25.30543463107182,0 -57.63737674351807,-25.3111908328584,0 -57.63311543289685,-25.31326914007012,0 -57.63086355049312,-25.31253332990387,0 -57.62948614926277,-25.31845928686333,0 -57.62245658180039,-25.31688373548152,0 -57.6231721097104,-25.31650503493529,0 -57.6214307638247,-25.3126210074656,0 -57.62079620473245,-25.31303903249798,0 -57.61924094977561,-25.31011464193482,0 -57.61931544692508,-25.31005726230474,0 -57.61859707638296,-25.30702676299606,0 -57.61882618108898,-25.30679506740723,0 -57.61995057307011,-25.30415960350956,0 -57.62068702820425,-25.30150511271427,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Comisaría 19</name>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaría 19a Metropolitana</name> -->
+				<!-- 	<LookAt> -->
+				<!-- 		<longitude>-57.60136452459824</longitude> -->
+				<!-- 		<latitude>-25.28146692037126</latitude> -->
+				<!-- 		<altitude>0</altitude> -->
+				<!-- 		<heading>0.0334334824822712</heading> -->
+				<!-- 		<tilt>0</tilt> -->
+				<!-- 		<range>218.2525940808334</range> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</LookAt> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.60144714746362,-25.28159164210553,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+				<Placemark>
+					<name>Jurisdición Comisaría 19a Metropolitana</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.6024369491257,-25.28423420274358,0 -57.60332933579179,-25.28826742252803,0 -57.59827411042202,-25.2874502226172,0 -57.58863988827858,-25.28647921169038,0 -57.58422595978379,-25.27144293794145,0 -57.58705640666558,-25.27080830286152,0 -57.59137930747063,-25.27055982363554,0 -57.59146203103268,-25.2717756481173,0 -57.59175127318176,-25.27273286067805,0 -57.59359864832582,-25.27260374028677,0 -57.5938237800741,-25.27531350800136,0 -57.59935024486529,-25.27608302024136,0 -57.59889347421773,-25.27285799445436,0 -57.6058594286678,-25.27515784832202,0 -57.6024369491257,-25.28423420274358,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Comisaría 20</name>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaría 20a Metrpolitana</name> -->
+				<!-- 	<LookAt> -->
+				<!-- 		<longitude>-57.5963221271963</longitude> -->
+				<!-- 		<latitude>-25.26550979417036</latitude> -->
+				<!-- 		<altitude>0</altitude> -->
+				<!-- 		<heading>-0.0002062691012331678</heading> -->
+				<!-- 		<tilt>0</tilt> -->
+				<!-- 		<range>613.8676239475857</range> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</LookAt> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.59674335860642,-25.26558535243111,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+				<Placemark>
+					<name>Jurisdicción Comisaría 20a Metropolitana</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.64679707410687,-25.27241123820125,0 -57.63002971406591,-25.26806205178813,0 -57.62714385402011,-25.26967957702887,0 -57.62322047358001,-25.27314785220439,0 -57.62124476911988,-25.27327238043021,0 -57.62052754574177,-25.27214616536097,0 -57.62105547315324,-25.26986045509134,0 -57.62158278536398,-25.2689389023918,0 -57.62056482975613,-25.26904164892365,0 -57.62011190526717,-25.26822279732201,0 -57.62082841167089,-25.26777922811645,0 -57.62097790470524,-25.26535888299602,0 -57.62033705078346,-25.26535881958026,0 -57.61864031027691,-25.26876903754127,0 -57.61788586246133,-25.26911029666048,0 -57.61724426983626,-25.26812086190629,0 -57.61641368151913,-25.2686669746518,0 -57.61679155207178,-25.26723385753801,0 -57.61652744679514,-25.26689273053525,0 -57.61558421075984,-25.26873526350763,0 -57.6146054608512,-25.26934911846005,0 -57.61545508732587,-25.27098863826212,0 -57.61270850196554,-25.26846232261551,0 -57.60929983691207,-25.26754632574038,0 -57.60925731174066,-25.26758483651298,0 -57.60649152233001,-25.26681075424136,0 -57.60616795494044,-25.26616005912388,0 -57.60457693210371,-25.26605914202406,0 -57.60085028560542,-25.27019155032484,0 -57.60026765873342,-25.26992848953999,0 -57.59884088609077,-25.27270965473921,0 -57.59934265267962,-25.276128880508,0 -57.5938592294955,-25.27538275748307,0 -57.59366355110513,-25.27261440285905,0 -57.59173618731916,-25.27269014522555,0 -57.59136210437602,-25.27052059544624,0 -57.5843371848154,-25.27141631579908,0 -57.58415080979077,-25.2709156227995,0 -57.5907558910251,-25.26125798159292,0 -57.59229620680242,-25.26246932006499,0 -57.59276354619451,-25.26209960377791,0 -57.59297794512122,-25.26181712231862,0 -57.59301857790492,-25.26126587077952,0 -57.59396438812,-25.26038892381148,0 -57.59343236747419,-25.26005611134469,0 -57.59339053808426,-25.25928048362317,0 -57.59829391955837,-25.25482286157018,0 -57.59729646635443,-25.2492224055715,0 -57.60689843816881,-25.24997275033172,0 -57.61692389140883,-25.2541157731331,0 -57.62966500878744,-25.25845045058525,0 -57.64263025942734,-25.26693885279165,0 -57.64679707410687,-25.27241123820125,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Comisaría 21</name>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaría 21a Metropolitana</name> -->
+				<!-- 	<LookAt> -->
+				<!-- 		<longitude>-57.64309430129804</longitude> -->
+				<!-- 		<latitude>-25.30762691949845</latitude> -->
+				<!-- 		<altitude>0</altitude> -->
+				<!-- 		<heading>0.01972988462717395</heading> -->
+				<!-- 		<tilt>0</tilt> -->
+				<!-- 		<range>1823.015886235457</range> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</LookAt> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.63974980628277,-25.30664792761862,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+				<Placemark>
+					<name>Polígono sin título</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.63746511452183,-25.31122472616502,0 -57.63554791878561,-25.30542885779578,0 -57.64032249562662,-25.30268818126914,0 -57.64663270880037,-25.31146949166076,0 -57.6459570120556,-25.31191540657616,0 -57.64679425739011,-25.31360877058797,0 -57.64627572226409,-25.31388050534447,0 -57.64532252885152,-25.31389150049161,0 -57.6426220844741,-25.31359452011356,0 -57.64052151230903,-25.31366315667327,0 -57.63918384838913,-25.31327275715013,0 -57.6388099060779,-25.31293014531021,0 -57.6382272229197,-25.31229088823875,0 -57.63746511452183,-25.31122472616502,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Comisaría 22</name>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaría 22 Central</name> -->
+				<!-- 	<LookAt> -->
+				<!-- 		<longitude>-57.54664492107293</longitude> -->
+				<!-- 		<latitude>-25.24353354422778</latitude> -->
+				<!-- 		<altitude>0</altitude> -->
+				<!-- 		<heading>0.005902986800848625</heading> -->
+				<!-- 		<tilt>0</tilt> -->
+				<!-- 		<range>398.4555508605068</range> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</LookAt> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.54692213894643,-25.24389632948519,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+				<Placemark>
+					<name>Jurisdicción Comisaría 22 Central</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.55136460952432,-25.25684673083919,0 -57.53555629722273,-25.25923248011847,0 -57.53449172800109,-25.25558524915478,0 -57.53370425574216,-25.25319371818528,0 -57.53363336230084,-25.25165323144892,0 -57.5335261732194,-25.25007560699129,0 -57.53293678896101,-25.24981263490936,0 -57.5324647774389,-25.24930683229502,0 -57.5323274632761,-25.24856433246044,0 -57.53172935851295,-25.24854716591905,0 -57.53119067110556,-25.24838396643447,0 -57.53076413942866,-25.24812546378586,0 -57.53041092730036,-25.24732725766791,0 -57.53016133461218,-25.24667978262847,0 -57.52972949987159,-25.24656871266848,0 -57.52940507180251,-25.2465671634258,0 -57.52898452148531,-25.24654187295639,0 -57.52891666925073,-25.24637344601111,0 -57.5291131240495,-25.2459796001744,0 -57.52868594701827,-25.24556787963656,0 -57.52832782719847,-25.24529126222102,0 -57.52786146277973,-25.24494499388862,0 -57.52750512828543,-25.2446019636064,0 -57.52703587796591,-25.24432244049745,0 -57.52655852213263,-25.24430851241979,0 -57.52615440349254,-25.24429677527587,0 -57.52578697243931,-25.24428610316278,0 -57.5255226830196,-25.24447822169675,0 -57.52523338414657,-25.24433662451555,0 -57.52517398697485,-25.24393526574681,0 -57.52505165328297,-25.24323225869516,0 -57.52481431032834,-25.24265901225171,0 -57.52488104557139,-25.24179564735762,0 -57.52463779544956,-25.2413887553218,0 -57.52432070122375,-25.24101096265963,0 -57.52411412504831,-25.24060474749988,0 -57.52391572850275,-25.2402436320368,0 -57.52378764594663,-25.23957315332497,0 -57.52363359899598,-25.23903687980006,0 -57.52343161051128,-25.2386184977046,0 -57.52322476317707,-25.23774738645199,0 -57.52321196775139,-25.23719772046236,0 -57.52299620940247,-25.23696059259912,0 -57.52271870918159,-25.23666214246195,0 -57.52234625526614,-25.23633150989268,0 -57.52191178175809,-25.23594454124329,0 -57.5216043370955,-25.23559067526276,0 -57.52135559090461,-25.23172225646349,0 -57.52073425577693,-25.230502467278,0 -57.51983407499751,-25.22910247940429,0 -57.51853383368863,-25.22829361864189,0 -57.51849918766437,-25.22657353603822,0 -57.51865731588989,-25.22477299120342,0 -57.51865159640792,-25.22219337212571,0 -57.51830241784058,-25.22132415852597,0 -57.51756484651569,-25.2207017214327,0 -57.51606228003109,-25.22022941187229,0 -57.51533044174129,-25.21943500031124,0 -57.5149780675961,-25.21865129460574,0 -57.51520403065528,-25.21762618255061,0 -57.5139883754329,-25.21707549538165,0 -57.512753923986,-25.21703973006985,0 -57.51234238020027,-25.21640234073271,0 -57.51181679239219,-25.21585306385668,0 -57.51160442546173,-25.21543616153668,0 -57.51098094956429,-25.21508940182392,0 -57.51025367817709,-25.21510873348177,0 -57.50972687560159,-25.21460057503026,0 -57.50942403447321,-25.2141816383516,0 -57.50931118815836,-25.21352175643354,0 -57.50951987742725,-25.21274711596447,0 -57.50976952813831,-25.21209718555003,0 -57.52422923524944,-25.20287055703583,0 -57.52714988086053,-25.20073322228726,0 -57.53140536090802,-25.19728527342832,0 -57.53555886712294,-25.19360931346651,0 -57.53770679624728,-25.1920208463397,0 -57.54147473547766,-25.19589533332356,0 -57.54264167845752,-25.19991201917279,0 -57.54328631498528,-25.1997474934697,0 -57.5440574661116,-25.20317085108492,0 -57.56150252192695,-25.23312890669509,0 -57.55170560324756,-25.24053895526682,0 -57.55646979767981,-25.24854228520089,0 -57.5537218223473,-25.24837184154427,0 -57.55427724387869,-25.25069924665643,0 -57.5590008303332,-25.25273194995908,0 -57.55889319706443,-25.2564422045881,0 -57.55155916136487,-25.2565209033502,0 -57.55136460952432,-25.25684673083919,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Comisaría 23</name>
+				<!-- <Placemark> -->
+				<!-- 	<name>Comisaría 23 metropolitana</name> -->
+				<!-- 	<LookAt> -->
+				<!-- 		<longitude>-57.56397403579995</longitude> -->
+				<!-- 		<latitude>-25.22987710191651</latitude> -->
+				<!-- 		<altitude>0</altitude> -->
+				<!-- 		<heading>-1.366409273633968</heading> -->
+				<!-- 		<tilt>0</tilt> -->
+				<!-- 		<range>1787.840148595205</range> -->
+				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+				<!-- 	</LookAt> -->
+				<!-- 	<Point> -->
+				<!-- 		<coordinates>-57.56433585531751,-25.22959187904377,0</coordinates> -->
+				<!-- 	</Point> -->
+				<!-- </Placemark> -->
+				<Placemark>
+					<name>Jurisdicción Comisaría 23 Metropolitana</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.58182048820879,-25.23286128635851,0 -57.567687293964,-25.24150356295645,0 -57.56282368890523,-25.23477545617849,0 -57.55739655177562,-25.22565639561247,0 -57.56178686055579,-25.22388771817187,0 -57.56768997486563,-25.22124785496143,0 -57.56832048380803,-25.22249512740799,0 -57.57191305619801,-25.22517603093149,0 -57.57567690208365,-25.2285449794215,0 -57.57936262567033,-25.23118432329486,0 -57.58182048820879,-25.23286128635851,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+			</Folder>
+			<Folder>
+				<name>Comisaría 24</name>
+				<Placemark>
+					<name>Comisaría 24a Metropolitana</name>
+					<Polygon>
+						<tessellate>1</tessellate>
+						<outerBoundaryIs>
+							<LinearRing>
+								<coordinates>
+									-57.64325493727033,-25.32131162098328,0 -57.6400199837973,-25.31919786867665,0 -57.63955558968873,-25.31873459495913,0 -57.63937943854054,-25.31860429618129,0 -57.63923530896859,-25.31856085777752,0 -57.63926735478672,-25.31835819057342,0 -57.63909119287127,-25.31837265494609,0 -57.63923532952034,-25.31831475897538,0 -57.63918728477149,-25.31832923192954,0 -57.63915525409379,-25.31832923080847,0 -57.63928108897259,-25.31835572174039,0 -57.63917550386035,-25.31834815307006,0 -57.63910008705399,-25.31834274695085,0 -57.63905607947608,-25.31832586132669,0 -57.63902594912345,-25.31832369542918,0 -57.63890543871267,-25.31831503196683,0 -57.63881506577421,-25.31830853512973,0 -57.6387698829075,-25.31830528708386,0 -57.63865059907859,-25.31828299172658,0 -57.63860661782826,-25.31826611156657,0 -57.63853371787644,-25.31823343474918,0 -57.63850957263064,-25.31816310775546,0 -57.63851434719899,-25.31810857751434,0 -57.63850406499537,-25.3180529660286,0 -57.63847885400436,-25.3179962786468,0 -57.63846891745385,-25.31794068547606,0 -57.6385042048089,-25.31788834587023,0 -57.63876674168936,-25.31814079241885,0 -57.6388177257169,-25.31811007222488,0 -57.63885172518526,-25.31797182696076,0 -57.63897067638582,-25.31794111485565,0 -57.63910663423321,-25.31778751522406,0 -57.63937325078146,-25.31791514877335,0 -57.6392316818505,-25.31778715889179,0 -57.63940157136859,-25.3178639578863,0 -57.63948652287412,-25.31781277117638,0 -57.63979801596764,-25.31760801875566,0 -57.64124642657246,-25.31682350262512,0 -57.64530980518773,-25.31434831016017,0 -57.64694145778969,-25.313571309066,0 -57.64739737048613,-25.31435605374826,0 -57.65031738244321,-25.31549246513974,0 -57.65377828694569,-25.3180255557403,0 -57.65787947998508,-25.32057684461852,0 -57.66018276121103,-25.32185994013402,0 -57.66153208020892,-25.32246451333808,0 -57.66386401189777,-25.32288424014918,0 -57.66223218301184,-25.32449602900183,0 -57.65881210685332,-25.3259792443457,0 -57.6563633315671,-25.32730175232781,0 -57.65445582377956,-25.32851622492909,0 -57.65234581334355,-25.32952949216649,0 -57.65159679885538,-25.32973071452182,0 -57.65128469316281,-25.32945329359255,0 -57.65079965688938,-25.32890925910941,0 -57.65064424459889,-25.32874671741607,0 -57.6507555500826,-25.3287550395776,0 -57.65086981561062,-25.3287375188537,0 -57.65101013597088,-25.32874695493218,0 -57.65106625686829,-25.32875072877523,0 -57.65152424997372,-25.32832693414063,0 -57.65151739117759,-25.32772008326434,0 -57.65136395360053,-25.32724990031336,0 -57.65097874486578,-25.326864812976,0 -57.6508526648416,-25.32670323555292,0 -57.65076466211696,-25.32674761963599,0 -57.65073457824769,-25.32677083330142,0 -57.65003648098027,-25.32672089722275,0 -57.64937413105677,-25.32626699230686,0 -57.64746914543905,-25.32446683369926,0 -57.64672687630442,-25.32311003223729,0 -57.64325493727033,-25.32131162098328,0 
+								</coordinates>
+							</LinearRing>
+						</outerBoundaryIs>
+					</Polygon>
+				</Placemark>
+<!-- 				<Placemark> -->
+<!-- 					<name>comisaria metro 24</name> -->
+<!-- 					<LookAt> -->
+<!-- 						<gx:TimeStamp><when>2010-12-12T14:37:52Z</when> -->
+<!-- </gx:TimeStamp> -->
+<!-- 						<longitude>-57.64798133810242</longitude> -->
+<!-- 						<latitude>-25.31894284774235</latitude> -->
+<!-- 						<altitude>0</altitude> -->
+<!-- 						<heading>-0.0004250918112784046</heading> -->
+<!-- 						<tilt>0</tilt> -->
+<!-- 						<range>1572.208267193398</range> -->
+<!-- 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
+<!-- 					</LookAt> -->
+<!-- 					<Point> -->
+<!-- 						<coordinates>-57.64561418151288,-25.31978552243731,0</coordinates> -->
+<!-- 					</Point> -->
+<!-- 				</Placemark> -->
+			</Folder>
+		</Folder>
+	</Folder>
+</Document>
+</kml>
