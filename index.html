@@ -34,7 +34,8 @@
 	         attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
          }).addTo(mymap);         
          
-         var runLayer = omnivore.kml('https://raw.githubusercontent.com/joseprous/comisarias/master/comisarias.kml')
+//         var runLayer = omnivore.kml('https://raw.githubusercontent.com/joseprous/comisarias/master/comisarias.kml')
+         var runLayer = omnivore.kml('comisarias.kml')
                                 .on('ready', function() {
                                     mymap.fitBounds(runLayer.getBounds());
                                     runLayer.eachLayer(function(layer) {
@@ -42,51 +43,16 @@
                                     });                                    
                                 })
                                 .addTo(mymap);
-
-         function agregarComisaria(nombre,descripcion,lon,lat) {
-             var marker = L.marker([lat, lon]).addTo(mymap);
-             marker.bindPopup('<b>' + nombre + '</b><br>' + descripcion);
-         }
-         agregarComisaria("Comisar&iacute;a 1ra Metropolitana","Avda Tte Pedro Rodi c/ Tte Guillermo Arias",-57.65010145811991,-25.28028951341112);
-         agregarComisaria("Comisar&iacute;a 2da Metropolitana","Portugal y Narciso L&oacute;pez",-57.65386354955958,-25.29444848469493);
-         agregarComisaria("Comisar&iacute;a 3ra Metropolitana","Chile e/ Manduvir&aacute; y Jeju&iacute;",-57.63947866303681,-25.2885539818284);
-         agregarComisaria("Comisar&iacute;a 4a Metropolitana","Independencia Nacional C/ Cerro Le&oacute;n",-57.64370877179427,-25.29763978722859);
-         agregarComisaria("Comisar&iacute;a 5ta Metropolitana","",-57.6257265341697,-25.28353754377406);
-         agregarComisaria("Comisar&iacute;a 6ta Metropolitana","Mcal L&oacute;pez c/ Kubischeck",-57.60238429161864,-25.29249669457665);
-         agregarComisaria("Comisar&iacute;a 7ma Metropolitana","",-57.60911536359206,-25.3045916597533);
-         agregarComisaria("Comisaria 8va Metropolitana","",-57.63300585867044,-25.31561269120502);
-         agregarComisaria("Comisaria 9na Metropolitana","",-57.60978924634343,-25.27823479170802);
-         agregarComisaria("Comisar&iacute;a 10ma Metropolitana","",-57.54892501460163,-25.27612491975387);
-         agregarComisaria("Comisar&iacute;a 11a Metropolitana","",-57.5677008817238,-25.30193988176166);
-         agregarComisaria("Comisar&iacute;a 12a Metropolitana","",-57.58052992560983,-25.25983440591964);
-         agregarComisaria("Comisar&iacute;a 13a Metropolitana","",-57.64437355850489,-25.35894526736356);
-         agregarComisaria("Comisar&iacute;a 14a Metropolitana","",-57.62064061155099,-25.32038911272931);
-         agregarComisaria("Comisar&iacute;a 15a Metropolitana","",-57.58968645826305,-25.33434092950166);
-         agregarComisaria("Comisar&iacute;a 16a Metropolitana","",-57.58423385690294,-25.32472105903122);
-         //agregarComisaria("Comisar&iacute;a 17a Metropolitana","",,);
-         agregarComisaria("Comisar&iacute;a 18a Metropolitana","",-57.63197312305823,-25.30799044781302);
-         agregarComisaria("Comisar&iacute;a 19a Metropolitana","",-57.60144714746362,-25.28159164210553);
-         agregarComisaria("Comisar&iacute;a 20a Metrpolitana","",-57.59674335860642,-25.26558535243111);
-         agregarComisaria("Comisar&iacute;a 21a Metropolitana","",-57.63974980628277,-25.30664792761862);
-         agregarComisaria("Comisar&iacute;a 22 Central","",-57.54692213894643,-25.24389632948519);
-         agregarComisaria("Comisar&iacute;a 23 metropolitana","",-57.56433585531751,-25.22959187904377);
-         agregarComisaria("Comisar&iacute;a 24 metropolitana","",-57.64561418151288,-25.31978552243731);
          
-         /* mymap.locate({setView: true, maxZoom: 16});
 
-          * function onLocationFound(e) {
-          *     var radius = e.accuracy / 2;
-
-          *     L.marker(e.latlng).addTo(mymap)
-          *      .bindPopup("Mi ubicaci&oacute;n").openPopup();
-
-          *     L.circle(e.latlng, radius).addTo(mymap);
-          * }
-
-          * mymap.on('locationfound', onLocationFound); */
-
-
-
+         var greenIcon = new L.Icon({
+             iconUrl: 'https://cdn.rawgit.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png',
+             shadowUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.7/images/marker-shadow.png',
+             iconSize: [25, 41],
+             iconAnchor: [12, 41],
+             popupAnchor: [1, -34],
+             shadowSize: [41, 41]
+         });
 
          var current_position, current_accuracy;
 
@@ -99,7 +65,7 @@
 
              var radius = e.accuracy / 2;
 
-             current_position = L.marker(e.latlng).addTo(mymap)
+             current_position = L.marker(e.latlng, {icon: greenIcon}).addTo(mymap)
                                  .bindPopup("Mi ubicaci&oacute;n");
 
              current_accuracy = L.circle(e.latlng, radius).addTo(mymap);

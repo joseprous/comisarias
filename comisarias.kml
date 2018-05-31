@@ -13,23 +13,23 @@
     <]]></description>
 			<Folder>
 			  <name>Comisaría 1</name>
-              <!-- <Placemark> -->
-			  <!--   	<name>Comisaría 1ra Metropolitana</name> -->
-			  <!--   	<description>Avda Tte Pedro Rodi c/ Tte Guillermo Arias</description> -->
-			  <!--   	<LookAt> -->
-			  <!--   		<longitude>-57.64886230015415</longitude> -->
-			  <!--   		<latitude>-25.27879600293468</latitude> -->
-			  <!--   		<altitude>0</altitude> -->
-			  <!--   		<heading>1.326055113657091</heading> -->
-			  <!--   		<tilt>34.88468573000305</tilt> -->
-			  <!--   		<range>625.2290127314681</range> -->
-			  <!--   		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-			  <!--   	</LookAt> -->
-			  <!--   	<styleUrl>#msn_C7</styleUrl> -->
-			  <!--   	<Point> -->
-			  <!--   		<coordinates>-57.65010145811991,-25.28028951341112,0</coordinates> -->
-			  <!--   	</Point> -->
-			  <!--   </Placemark> -->
+              <Placemark>
+			    	<name>Comisaría 1ra Metropolitana</name>
+			    	<description>Avda Tte Pedro Rodi c/ Tte Guillermo Arias</description>
+			    	<LookAt>
+			    		<longitude>-57.64886230015415</longitude>
+			    		<latitude>-25.27879600293468</latitude>
+			    		<altitude>0</altitude>
+			    		<heading>1.326055113657091</heading>
+			    		<tilt>34.88468573000305</tilt>
+			    		<range>625.2290127314681</range>
+			    		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			    	</LookAt>
+			    	<styleUrl>#msn_C7</styleUrl>
+			    	<Point>
+			    		<coordinates>-57.65010145811991,-25.28028951341112,0</coordinates>
+			    	</Point>
+			    </Placemark>
 				<Placemark>
 					<name>Jurisdicción Comisaría 1ra Metropolitana</name>
 					<Polygon>
@@ -59,41 +59,41 @@
 						</outerBoundaryIs>
 					</Polygon>
 				</Placemark>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaría 2da Metropolitana</name> -->
-				<!-- 	<description>Portugal y Narciso López</description> -->
-				<!-- 	<LookAt> -->
-				<!-- 		<longitude>-57.65460750036667</longitude> -->
-				<!-- 		<latitude>-25.29474298335912</latitude> -->
-				<!-- 		<altitude>0</altitude> -->
-				<!-- 		<heading>0.03840494188915891</heading> -->
-				<!-- 		<tilt>0</tilt> -->
-				<!-- 		<range>265.7750059446609</range> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</LookAt> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.65386354955958,-25.29444848469493,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 2da Metropolitana</name>
+					<description>Portugal y Narciso López</description>
+					<LookAt>
+						<longitude>-57.65460750036667</longitude>
+						<latitude>-25.29474298335912</latitude>
+						<altitude>0</altitude>
+						<heading>0.03840494188915891</heading>
+						<tilt>0</tilt>
+						<range>265.7750059446609</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.65386354955958,-25.29444848469493,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Comisaría 3</name>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaría 3ra Metropolitana</name> -->
-				<!-- 	<description>Chile e/ Manduvirá y Jejuí</description> -->
-				<!-- 	<LookAt> -->
-				<!-- 		<longitude>-57.63593562268078</longitude> -->
-				<!-- 		<latitude>-25.28668714300799</latitude> -->
-				<!-- 		<altitude>0</altitude> -->
-				<!-- 		<heading>0.03042803896444616</heading> -->
-				<!-- 		<tilt>0</tilt> -->
-				<!-- 		<range>1055.880911473534</range> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</LookAt> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.63947866303681,-25.2885539818284,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 3ra Metropolitana</name>
+					<description>Chile e/ Manduvirá y Jejuí</description>
+					<LookAt>
+						<longitude>-57.63593562268078</longitude>
+						<latitude>-25.28668714300799</latitude>
+						<altitude>0</altitude>
+						<heading>0.03042803896444616</heading>
+						<tilt>0</tilt>
+						<range>1055.880911473534</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.63947866303681,-25.2885539818284,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Jurisdicción Comisaría 3ra Metropolitana</name>
 					<Polygon>
@@ -123,42 +123,42 @@
 						</outerBoundaryIs>
 					</Polygon>
 				</Placemark>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaría 4a Metropolitana</name> -->
-				<!-- 	<description>Independencia Nacional C/ Cerro León</description> -->
-				<!-- 	<LookAt> -->
-				<!-- 		<longitude>-57.64716593971573</longitude> -->
-				<!-- 		<latitude>-25.30127328892169</latitude> -->
-				<!-- 		<altitude>0</altitude> -->
-				<!-- 		<heading>0.02147030046500422</heading> -->
-				<!-- 		<tilt>0</tilt> -->
-				<!-- 		<range>3224.566012253446</range> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</LookAt> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.64370877179427,-25.29763978722859,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 4a Metropolitana</name>
+					<description>Independencia Nacional C/ Cerro León</description>
+					<LookAt>
+						<longitude>-57.64716593971573</longitude>
+						<latitude>-25.30127328892169</latitude>
+						<altitude>0</altitude>
+						<heading>0.02147030046500422</heading>
+						<tilt>0</tilt>
+						<range>3224.566012253446</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.64370877179427,-25.29763978722859,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Comisaría 5</name>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaría 5ta Metropolitana</name> -->
-				<!-- 	<open>1</open> -->
-				<!-- 	<description>Mcal López c/ Kubischeck</description> -->
-				<!-- 	<LookAt> -->
-				<!-- 		<longitude>-57.62773790506483</longitude> -->
-				<!-- 		<latitude>-25.28408123526372</latitude> -->
-				<!-- 		<altitude>0</altitude> -->
-				<!-- 		<heading>0.08245022880976405</heading> -->
-				<!-- 		<tilt>26.10594641010421</tilt> -->
-				<!-- 		<range>1937.409213973365</range> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</LookAt> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.6257265341697,-25.28353754377406,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 5ta Metropolitana</name>
+					<open>1</open>
+					<description>Mcal López c/ Kubischeck</description>
+					<LookAt>
+						<longitude>-57.62773790506483</longitude>
+						<latitude>-25.28408123526372</latitude>
+						<altitude>0</altitude>
+						<heading>0.08245022880976405</heading>
+						<tilt>26.10594641010421</tilt>
+						<range>1937.409213973365</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.6257265341697,-25.28353754377406,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Comisaría 5ta Metropolitana</name>
 					<Polygon>
@@ -175,22 +175,22 @@
 			</Folder>
 			<Folder>
 				<name>Comisaría 6</name>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaría 6ta Metropolitana</name> -->
-				<!-- 	<description>Mcal López c/ Kubischeck</description> -->
-				<!-- 	<LookAt> -->
-				<!-- 		<longitude>-57.60167334998675</longitude> -->
-				<!-- 		<latitude>-25.29284151187764</latitude> -->
-				<!-- 		<altitude>0</altitude> -->
-				<!-- 		<heading>0.01571345389229005</heading> -->
-				<!-- 		<tilt>0</tilt> -->
-				<!-- 		<range>1294.039202456477</range> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</LookAt> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.60238429161864,-25.29249669457665,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 6ta Metropolitana</name>
+					<description>Mcal López c/ Kubischeck</description>
+					<LookAt>
+						<longitude>-57.60167334998675</longitude>
+						<latitude>-25.29284151187764</latitude>
+						<altitude>0</altitude>
+						<heading>0.01571345389229005</heading>
+						<tilt>0</tilt>
+						<range>1294.039202456477</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.60238429161864,-25.29249669457665,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Jurisdicción Comisaría 6ta Metropolitana</name>
 					<Polygon>
@@ -207,21 +207,21 @@
 			</Folder>
 			<Folder>
 				<name>Comisaría 7</name>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaría 7ma Metropolitana</name> -->
-				<!-- 	<LookAt> -->
-				<!-- 		<longitude>-57.60921362173948</longitude> -->
-				<!-- 		<latitude>-25.30410714303382</latitude> -->
-				<!-- 		<altitude>0</altitude> -->
-				<!-- 		<heading>0.003327599352339404</heading> -->
-				<!-- 		<tilt>0</tilt> -->
-				<!-- 		<range>183.6995442256866</range> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</LookAt> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.60911536359206,-25.3045916597533,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 7ma Metropolitana</name>
+					<LookAt>
+						<longitude>-57.60921362173948</longitude>
+						<latitude>-25.30410714303382</latitude>
+						<altitude>0</altitude>
+						<heading>0.003327599352339404</heading>
+						<tilt>0</tilt>
+						<range>183.6995442256866</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.60911536359206,-25.3045916597533,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Polígono sin título</name>
 					<Polygon>
@@ -251,41 +251,41 @@
 						</outerBoundaryIs>
 					</Polygon>
 				</Placemark>
-<!-- 				<Placemark> -->
-<!-- 					<name>comisaria 8</name> -->
-<!-- 					<LookAt> -->
-<!-- 						<gx:TimeStamp><when>2010-12-12T14:37:52Z</when> -->
-<!-- </gx:TimeStamp> -->
-<!-- 						<longitude>-57.63527355143562</longitude> -->
-<!-- 						<latitude>-25.31722921243296</latitude> -->
-<!-- 						<altitude>0</altitude> -->
-<!-- 						<heading>-0.001156185161082173</heading> -->
-<!-- 						<tilt>0</tilt> -->
-<!-- 						<range>869.2023168394106</range> -->
-<!-- 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-<!-- 					</LookAt> -->
-<!-- 					<Point> -->
-<!-- 						<coordinates>-57.63300585867044,-25.31561269120502,0</coordinates> -->
-<!-- 					</Point> -->
-<!-- 				</Placemark> -->
+				<Placemark>
+					<name>comisaria 8</name>
+					<LookAt>
+						<gx:TimeStamp><when>2010-12-12T14:37:52Z</when>
+</gx:TimeStamp>
+						<longitude>-57.63527355143562</longitude>
+						<latitude>-25.31722921243296</latitude>
+						<altitude>0</altitude>
+						<heading>-0.001156185161082173</heading>
+						<tilt>0</tilt>
+						<range>869.2023168394106</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.63300585867044,-25.31561269120502,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 			<Folder>
 				<name>Comisaría 9</name>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaria 9na Metropolitana</name> -->
-				<!-- 	<LookAt> -->
-				<!-- 		<longitude>-57.60995886828826</longitude> -->
-				<!-- 		<latitude>-25.2780494214659</latitude> -->
-				<!-- 		<altitude>0</altitude> -->
-				<!-- 		<heading>-0.00145112971505714</heading> -->
-				<!-- 		<tilt>0</tilt> -->
-				<!-- 		<range>216.318511353383</range> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</LookAt> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.60978924634343,-25.27823479170802,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaria 9na Metropolitana</name>
+					<LookAt>
+						<longitude>-57.60995886828826</longitude>
+						<latitude>-25.2780494214659</latitude>
+						<altitude>0</altitude>
+						<heading>-0.00145112971505714</heading>
+						<tilt>0</tilt>
+						<range>216.318511353383</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.60978924634343,-25.27823479170802,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Jurisdicción Comisaría 9na Metropolitana</name>
 					<Polygon>
@@ -302,21 +302,21 @@
 			</Folder>
 			<Folder>
 				<name>Comisaría 10</name>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaría 10ma Metropolitana</name> -->
-				<!-- 	<LookAt> -->
-				<!-- 		<longitude>-57.54842922205967</longitude> -->
-				<!-- 		<latitude>-25.27628194154092</latitude> -->
-				<!-- 		<altitude>0</altitude> -->
-				<!-- 		<heading>-0.02409639626446725</heading> -->
-				<!-- 		<tilt>0</tilt> -->
-				<!-- 		<range>415.3291027768786</range> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</LookAt> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.54892501460163,-25.27612491975387,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 10ma Metropolitana</name>
+					<LookAt>
+						<longitude>-57.54842922205967</longitude>
+						<latitude>-25.27628194154092</latitude>
+						<altitude>0</altitude>
+						<heading>-0.02409639626446725</heading>
+						<tilt>0</tilt>
+						<range>415.3291027768786</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.54892501460163,-25.27612491975387,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>jurisdicción Comisaría 10ma Metropolitana</name>
 					<Polygon>
@@ -333,21 +333,21 @@
 			</Folder>
 			<Folder>
 				<name>Comisaría 11</name>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaría 11a Metropolitana</name> -->
-				<!-- 	<LookAt> -->
-				<!-- 		<longitude>-57.56784661326688</longitude> -->
-				<!-- 		<latitude>-25.30190546699844</latitude> -->
-				<!-- 		<altitude>0</altitude> -->
-				<!-- 		<heading>14.64615741616017</heading> -->
-				<!-- 		<tilt>0.2484160631592026</tilt> -->
-				<!-- 		<range>591.1323298651582</range> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</LookAt> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.5677008817238,-25.30193988176166,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 11a Metropolitana</name>
+					<LookAt>
+						<longitude>-57.56784661326688</longitude>
+						<latitude>-25.30190546699844</latitude>
+						<altitude>0</altitude>
+						<heading>14.64615741616017</heading>
+						<tilt>0.2484160631592026</tilt>
+						<range>591.1323298651582</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.5677008817238,-25.30193988176166,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Jurisdicción Comisaría 11a Metropolitana</name>
 					<Polygon>
@@ -364,21 +364,21 @@
 			</Folder>
 			<Folder>
 				<name>Comisaría 12</name>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaría 12a Metropolitana</name> -->
-				<!-- 	<Camera> -->
-				<!-- 		<longitude>-57.58076903149724</longitude> -->
-				<!-- 		<latitude>-25.26013187411452</latitude> -->
-				<!-- 		<altitude>728.8237107124533</altitude> -->
-				<!-- 		<heading>10.2860368559227</heading> -->
-				<!-- 		<tilt>1.269303815209255</tilt> -->
-				<!-- 		<roll>2.540695855668449</roll> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</Camera> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.58052992560983,-25.25983440591964,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 12a Metropolitana</name>
+					<Camera>
+						<longitude>-57.58076903149724</longitude>
+						<latitude>-25.26013187411452</latitude>
+						<altitude>728.8237107124533</altitude>
+						<heading>10.2860368559227</heading>
+						<tilt>1.269303815209255</tilt>
+						<roll>2.540695855668449</roll>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</Camera>
+					<Point>
+						<coordinates>-57.58052992560983,-25.25983440591964,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Jurisdición Comisaría 12 Metropolitana</name>
 					<Polygon>
@@ -398,18 +398,6 @@
 				<!-- <Folder> -->
 				<!-- 	<name>com13</name> -->
 				<!-- 	<open>1</open> -->
-					<!-- <Placemark> -->
-					<!-- 	<name>juridiccion comisaria 13</name> -->
-					<!-- 	<Polygon> -->
-					<!-- 		<tessellate>1</tessellate> -->
-					<!-- 		<outerBoundaryIs> -->
-					<!-- 			<LinearRing> -->
-					<!-- 				<coordinates> -->
-					<!-- 				</coordinates> -->
-					<!-- 			</LinearRing> -->
-					<!-- 		</outerBoundaryIs> -->
-					<!-- 	</Polygon> -->
-					<!-- </Placemark> -->
 					<Placemark>
 						<name>juridiccion comisaria 13</name>
 						<Polygon>
@@ -423,23 +411,23 @@
 							</outerBoundaryIs>
 						</Polygon>
 					</Placemark>
-<!-- 					<Placemark> -->
-<!-- 						<name>comisaria13</name> -->
-<!-- 						<LookAt> -->
-<!-- 							<gx:TimeStamp><when>2010-12-12T14:37:52Z</when> -->
-<!-- </gx:TimeStamp> -->
-<!-- 							<longitude>-57.63748257022594</longitude> -->
-<!-- 							<latitude>-25.3523087679544</latitude> -->
-<!-- 							<altitude>0</altitude> -->
-<!-- 							<heading>-4.770832022195275e-015</heading> -->
-<!-- 							<tilt>0</tilt> -->
-<!-- 							<range>5859.610694112634</range> -->
-<!-- 							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-<!-- 						</LookAt> -->
-<!-- 						<Point> -->
-<!-- 							<coordinates>-57.64437355850489,-25.35894526736356,0</coordinates> -->
-<!-- 						</Point> -->
-<!-- 					</Placemark> -->
+					<Placemark>
+						<name>comisaria13</name>
+						<LookAt>
+							<gx:TimeStamp><when>2010-12-12T14:37:52Z</when>
+</gx:TimeStamp>
+							<longitude>-57.63748257022594</longitude>
+							<latitude>-25.3523087679544</latitude>
+							<altitude>0</altitude>
+							<heading>-4.770832022195275e-015</heading>
+							<tilt>0</tilt>
+							<range>5859.610694112634</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<Point>
+							<coordinates>-57.64437355850489,-25.35894526736356,0</coordinates>
+						</Point>
+					</Placemark>
 				<!-- </Folder> -->
 			</Folder>
 			<Folder>
@@ -447,21 +435,21 @@
 				<!-- <Folder> -->
 				<!-- 	<name>Comisaría 14</name> -->
 				<!-- 	<open>1</open> -->
-					<!-- <Placemark> -->
-					<!-- 	<name>Comisaría 14a Metropolitana</name> -->
-					<!-- 	<LookAt> -->
-					<!-- 		<longitude>-57.62051420788306</longitude> -->
-					<!-- 		<latitude>-25.32070071252323</latitude> -->
-					<!-- 		<altitude>0</altitude> -->
-					<!-- 		<heading>14.6686499646814</heading> -->
-					<!-- 		<tilt>0.2498878826333329</tilt> -->
-					<!-- 		<range>650.1775565006908</range> -->
-					<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-					<!-- 	</LookAt> -->
-					<!-- 	<Point> -->
-					<!-- 		<coordinates>-57.62064061155099,-25.32038911272931,0</coordinates> -->
-					<!-- 	</Point> -->
-					<!-- </Placemark> -->
+					<Placemark>
+						<name>Comisaría 14a Metropolitana</name>
+						<LookAt>
+							<longitude>-57.62051420788306</longitude>
+							<latitude>-25.32070071252323</latitude>
+							<altitude>0</altitude>
+							<heading>14.6686499646814</heading>
+							<tilt>0.2498878826333329</tilt>
+							<range>650.1775565006908</range>
+							<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+						</LookAt>
+						<Point>
+							<coordinates>-57.62064061155099,-25.32038911272931,0</coordinates>
+						</Point>
+					</Placemark>
 					<Placemark>
 						<name>Jurisdicción comisaría 14a Metropolitana</name>
 						<Polygon>
@@ -479,21 +467,21 @@
 			</Folder>
 			<Folder>
 				<name>Comisaría 15</name>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaría 15a Metropolitana</name> -->
-				<!-- 	<Camera> -->
-				<!-- 		<longitude>-57.58924321920435</longitude> -->
-				<!-- 		<latitude>-25.33457885853235</latitude> -->
-				<!-- 		<altitude>300.8415036800269</altitude> -->
-				<!-- 		<heading>10.03056648753655</heading> -->
-				<!-- 		<tilt>0.2013177907193902</tilt> -->
-				<!-- 		<roll>1.093964934596668</roll> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</Camera> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.58968645826305,-25.33434092950166,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 15a Metropolitana</name>
+					<Camera>
+						<longitude>-57.58924321920435</longitude>
+						<latitude>-25.33457885853235</latitude>
+						<altitude>300.8415036800269</altitude>
+						<heading>10.03056648753655</heading>
+						<tilt>0.2013177907193902</tilt>
+						<roll>1.093964934596668</roll>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</Camera>
+					<Point>
+						<coordinates>-57.58968645826305,-25.33434092950166,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Polígono sin título</name>
 					<Polygon>
@@ -510,21 +498,21 @@
 			</Folder>
 			<Folder>
 				<name>Comisaría 16</name>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaría 16a Metropolitana</name> -->
-				<!-- 	<LookAt> -->
-				<!-- 		<longitude>-57.58514682799552</longitude> -->
-				<!-- 		<latitude>-25.3271877639659</latitude> -->
-				<!-- 		<altitude>0</altitude> -->
-				<!-- 		<heading>0.02656046273949457</heading> -->
-				<!-- 		<tilt>0</tilt> -->
-				<!-- 		<range>1017.81251412301</range> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</LookAt> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.58423385690294,-25.32472105903122,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 16a Metropolitana</name>
+					<LookAt>
+						<longitude>-57.58514682799552</longitude>
+						<latitude>-25.3271877639659</latitude>
+						<altitude>0</altitude>
+						<heading>0.02656046273949457</heading>
+						<tilt>0</tilt>
+						<range>1017.81251412301</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.58423385690294,-25.32472105903122,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Jurisdicción Comisaría 16a Metropolitana</name>
 					<Polygon>
@@ -541,21 +529,21 @@
 			</Folder>
 			<Folder>
 				<name>Comisaría 18</name>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaría 18a Metropolitana</name> -->
-				<!-- 	<LookAt> -->
-				<!-- 		<longitude>-57.6349969022601</longitude> -->
-				<!-- 		<latitude>-25.30738914794097</latitude> -->
-				<!-- 		<altitude>0</altitude> -->
-				<!-- 		<heading>0.04766685289927516</heading> -->
-				<!-- 		<tilt>0</tilt> -->
-				<!-- 		<range>685.8662651006041</range> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</LookAt> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.63197312305823,-25.30799044781302,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 18a Metropolitana</name>
+					<LookAt>
+						<longitude>-57.6349969022601</longitude>
+						<latitude>-25.30738914794097</latitude>
+						<altitude>0</altitude>
+						<heading>0.04766685289927516</heading>
+						<tilt>0</tilt>
+						<range>685.8662651006041</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.63197312305823,-25.30799044781302,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<Polygon>
 						<tessellate>1</tessellate>
@@ -571,21 +559,21 @@
 			</Folder>
 			<Folder>
 				<name>Comisaría 19</name>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaría 19a Metropolitana</name> -->
-				<!-- 	<LookAt> -->
-				<!-- 		<longitude>-57.60136452459824</longitude> -->
-				<!-- 		<latitude>-25.28146692037126</latitude> -->
-				<!-- 		<altitude>0</altitude> -->
-				<!-- 		<heading>0.0334334824822712</heading> -->
-				<!-- 		<tilt>0</tilt> -->
-				<!-- 		<range>218.2525940808334</range> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</LookAt> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.60144714746362,-25.28159164210553,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 19a Metropolitana</name>
+					<LookAt>
+						<longitude>-57.60136452459824</longitude>
+						<latitude>-25.28146692037126</latitude>
+						<altitude>0</altitude>
+						<heading>0.0334334824822712</heading>
+						<tilt>0</tilt>
+						<range>218.2525940808334</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.60144714746362,-25.28159164210553,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Jurisdición Comisaría 19a Metropolitana</name>
 					<Polygon>
@@ -602,21 +590,21 @@
 			</Folder>
 			<Folder>
 				<name>Comisaría 20</name>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaría 20a Metrpolitana</name> -->
-				<!-- 	<LookAt> -->
-				<!-- 		<longitude>-57.5963221271963</longitude> -->
-				<!-- 		<latitude>-25.26550979417036</latitude> -->
-				<!-- 		<altitude>0</altitude> -->
-				<!-- 		<heading>-0.0002062691012331678</heading> -->
-				<!-- 		<tilt>0</tilt> -->
-				<!-- 		<range>613.8676239475857</range> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</LookAt> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.59674335860642,-25.26558535243111,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 20a Metrpolitana</name>
+					<LookAt>
+						<longitude>-57.5963221271963</longitude>
+						<latitude>-25.26550979417036</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0002062691012331678</heading>
+						<tilt>0</tilt>
+						<range>613.8676239475857</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.59674335860642,-25.26558535243111,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Jurisdicción Comisaría 20a Metropolitana</name>
 					<Polygon>
@@ -633,21 +621,21 @@
 			</Folder>
 			<Folder>
 				<name>Comisaría 21</name>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaría 21a Metropolitana</name> -->
-				<!-- 	<LookAt> -->
-				<!-- 		<longitude>-57.64309430129804</longitude> -->
-				<!-- 		<latitude>-25.30762691949845</latitude> -->
-				<!-- 		<altitude>0</altitude> -->
-				<!-- 		<heading>0.01972988462717395</heading> -->
-				<!-- 		<tilt>0</tilt> -->
-				<!-- 		<range>1823.015886235457</range> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</LookAt> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.63974980628277,-25.30664792761862,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 21a Metropolitana</name>
+					<LookAt>
+						<longitude>-57.64309430129804</longitude>
+						<latitude>-25.30762691949845</latitude>
+						<altitude>0</altitude>
+						<heading>0.01972988462717395</heading>
+						<tilt>0</tilt>
+						<range>1823.015886235457</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.63974980628277,-25.30664792761862,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Polígono sin título</name>
 					<Polygon>
@@ -664,21 +652,21 @@
 			</Folder>
 			<Folder>
 				<name>Comisaría 22</name>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaría 22 Central</name> -->
-				<!-- 	<LookAt> -->
-				<!-- 		<longitude>-57.54664492107293</longitude> -->
-				<!-- 		<latitude>-25.24353354422778</latitude> -->
-				<!-- 		<altitude>0</altitude> -->
-				<!-- 		<heading>0.005902986800848625</heading> -->
-				<!-- 		<tilt>0</tilt> -->
-				<!-- 		<range>398.4555508605068</range> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</LookAt> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.54692213894643,-25.24389632948519,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 22 Central</name>
+					<LookAt>
+						<longitude>-57.54664492107293</longitude>
+						<latitude>-25.24353354422778</latitude>
+						<altitude>0</altitude>
+						<heading>0.005902986800848625</heading>
+						<tilt>0</tilt>
+						<range>398.4555508605068</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.54692213894643,-25.24389632948519,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Jurisdicción Comisaría 22 Central</name>
 					<Polygon>
@@ -695,21 +683,21 @@
 			</Folder>
 			<Folder>
 				<name>Comisaría 23</name>
-				<!-- <Placemark> -->
-				<!-- 	<name>Comisaría 23 metropolitana</name> -->
-				<!-- 	<LookAt> -->
-				<!-- 		<longitude>-57.56397403579995</longitude> -->
-				<!-- 		<latitude>-25.22987710191651</latitude> -->
-				<!-- 		<altitude>0</altitude> -->
-				<!-- 		<heading>-1.366409273633968</heading> -->
-				<!-- 		<tilt>0</tilt> -->
-				<!-- 		<range>1787.840148595205</range> -->
-				<!-- 		<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-				<!-- 	</LookAt> -->
-				<!-- 	<Point> -->
-				<!-- 		<coordinates>-57.56433585531751,-25.22959187904377,0</coordinates> -->
-				<!-- 	</Point> -->
-				<!-- </Placemark> -->
+				<Placemark>
+					<name>Comisaría 23 metropolitana</name>
+					<LookAt>
+						<longitude>-57.56397403579995</longitude>
+						<latitude>-25.22987710191651</latitude>
+						<altitude>0</altitude>
+						<heading>-1.366409273633968</heading>
+						<tilt>0</tilt>
+						<range>1787.840148595205</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.56433585531751,-25.22959187904377,0</coordinates>
+					</Point>
+				</Placemark>
 				<Placemark>
 					<name>Jurisdicción Comisaría 23 Metropolitana</name>
 					<Polygon>
@@ -739,23 +727,23 @@
 						</outerBoundaryIs>
 					</Polygon>
 				</Placemark>
-<!-- 				<Placemark> -->
-<!-- 					<name>comisaria metro 24</name> -->
-<!-- 					<LookAt> -->
-<!-- 						<gx:TimeStamp><when>2010-12-12T14:37:52Z</when> -->
-<!-- </gx:TimeStamp> -->
-<!-- 						<longitude>-57.64798133810242</longitude> -->
-<!-- 						<latitude>-25.31894284774235</latitude> -->
-<!-- 						<altitude>0</altitude> -->
-<!-- 						<heading>-0.0004250918112784046</heading> -->
-<!-- 						<tilt>0</tilt> -->
-<!-- 						<range>1572.208267193398</range> -->
-<!-- 						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode> -->
-<!-- 					</LookAt> -->
-<!-- 					<Point> -->
-<!-- 						<coordinates>-57.64561418151288,-25.31978552243731,0</coordinates> -->
-<!-- 					</Point> -->
-<!-- 				</Placemark> -->
+				<Placemark>
+					<name>comisaria metro 24</name>
+					<LookAt>
+						<gx:TimeStamp><when>2010-12-12T14:37:52Z</when>
+</gx:TimeStamp>
+						<longitude>-57.64798133810242</longitude>
+						<latitude>-25.31894284774235</latitude>
+						<altitude>0</altitude>
+						<heading>-0.0004250918112784046</heading>
+						<tilt>0</tilt>
+						<range>1572.208267193398</range>
+						<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+					</LookAt>
+					<Point>
+						<coordinates>-57.64561418151288,-25.31978552243731,0</coordinates>
+					</Point>
+				</Placemark>
 			</Folder>
 		</Folder>
 	</Folder>
