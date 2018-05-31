@@ -100,7 +100,7 @@
              var radius = e.accuracy / 2;
 
              current_position = L.marker(e.latlng).addTo(mymap)
-                                 .bindPopup("Mi ubicaci&oacute;n").openPopup();
+                                 .bindPopup("Mi ubicaci&oacute;n");
 
              current_accuracy = L.circle(e.latlng, radius).addTo(mymap);
          }
