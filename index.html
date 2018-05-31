@@ -36,7 +36,7 @@
          
          var runLayer = omnivore.kml('https://raw.githubusercontent.com/joseprous/comisarias/master/comisarias.kml')
                                 .on('ready', function() {
-                                    map.fitBounds(runLayer.getBounds());
+                                    mymap.fitBounds(runLayer.getBounds());
                                     runLayer.eachLayer(function(layer) {
                                         layer.bindPopup(layer.feature.properties.name);
                                     });                                    
